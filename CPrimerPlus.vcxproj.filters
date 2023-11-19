@@ -13,10 +13,49 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\第二章">
+      <UniqueIdentifier>{4b58ac89-798b-48b0-a219-93a1cfc5004d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第二章\编程练习">
+      <UniqueIdentifier>{9a1048e7-9bc4-4e04-b376-753a70af07d9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPrimerPlus.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="first2_1.c">
+      <Filter>源文件\第二章</Filter>
+    </ClCompile>
+    <ClCompile Include="fathm_ft.c">
+      <Filter>源文件\第二章</Filter>
+    </ClCompile>
+    <ClCompile Include="two_func.c">
+      <Filter>源文件\第二章</Filter>
+    </ClCompile>
+    <ClCompile Include="printName.c">
+      <Filter>源文件\第二章\编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="printNameAndAddress.c">
+      <Filter>源文件\第二章\编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="convertAge2Days.c">
+      <Filter>源文件\第二章\编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="work4.c">
+      <Filter>源文件\第二章\编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="work5.c">
+      <Filter>源文件\第二章\编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="work6.c">
+      <Filter>源文件\第二章\编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="work7.c">
+      <Filter>源文件\第二章\编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="work8.c">
+      <Filter>源文件\第二章\编程练习</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
