@@ -19,6 +19,9 @@
     <Filter Include="源文件\第二章\编程练习">
       <UniqueIdentifier>{9a1048e7-9bc4-4e04-b376-753a70af07d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第三章">
+      <UniqueIdentifier>{41fd9ee9-4a74-4b90-8445-3a5b95dafc1e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPrimerPlus.cpp">
@@ -56,6 +59,27 @@
     </ClCompile>
     <ClCompile Include="work8.c">
       <Filter>源文件\第二章\编程练习</Filter>
+    </ClCompile>
+    <ClCompile Include="platinum.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="print1.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="bases.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="toobig.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="print2.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="charcode.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="altnames.c">
+      <Filter>源文件\第三章</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
