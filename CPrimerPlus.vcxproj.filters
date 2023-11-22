@@ -103,7 +103,37 @@
       <Filter>源文件\第四章</Filter>
     </ClCompile>
     <ClCompile Include="varwid.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="badcount.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="escape.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="floaterr.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="showf_pt.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="typesize.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_3_4.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_3_5.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work3_2.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work3_3.c">
+      <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work3_9.c">
+      <Filter>源文件\第三章</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
