@@ -22,6 +22,9 @@
     <Filter Include="源文件\第三章">
       <UniqueIdentifier>{41fd9ee9-4a74-4b90-8445-3a5b95dafc1e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第四章">
+      <UniqueIdentifier>{27315a6a-b7dd-4d91-9fba-c164be7b5585}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CPrimerPlus.cpp">
@@ -80,6 +83,27 @@
     </ClCompile>
     <ClCompile Include="altnames.c">
       <Filter>源文件\第三章</Filter>
+    </ClCompile>
+    <ClCompile Include="talkback.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="praise1.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="praise2.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="defines.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="longstrg.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="input.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="varwid.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
