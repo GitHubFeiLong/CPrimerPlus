@@ -135,5 +135,29 @@
     <ClCompile Include="work3_9.c">
       <Filter>源文件\第三章</Filter>
     </ClCompile>
+    <ClCompile Include="work_4_8.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_4_1.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_4_2.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_4_3.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_4_4.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_4_5.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_4_6.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_4_7.c">
+      <Filter>源文件\第四章</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
