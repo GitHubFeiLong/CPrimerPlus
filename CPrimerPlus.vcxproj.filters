@@ -28,6 +28,9 @@
     <Filter Include="源文件\第五章">
       <UniqueIdentifier>{d0b93eb6-201e-4dda-99bb-02cd1debd181}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第六章">
+      <UniqueIdentifier>{14d0ddb8-719d-41e0-92f1-6275c839c5d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first2_1.c">
@@ -159,9 +162,6 @@
     <ClCompile Include="work_4_7.c">
       <Filter>源文件\第四章</Filter>
     </ClCompile>
-    <ClCompile Include="cmpflt.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="convert.c">
       <Filter>源文件\第五章</Filter>
     </ClCompile>
@@ -233,6 +233,54 @@
     </ClCompile>
     <ClCompile Include="work_5_9.c">
       <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpflt.c">
+      <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="scores_in.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="power.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="review_6_7_a.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="review_6_8_a.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="review_6_8_b.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_9.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_10.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
