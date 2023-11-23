@@ -25,11 +25,11 @@
     <Filter Include="源文件\第四章">
       <UniqueIdentifier>{27315a6a-b7dd-4d91-9fba-c164be7b5585}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第五章">
+      <UniqueIdentifier>{d0b93eb6-201e-4dda-99bb-02cd1debd181}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPrimerPlus.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="first2_1.c">
       <Filter>源文件\第二章</Filter>
     </ClCompile>
@@ -158,6 +158,81 @@
     </ClCompile>
     <ClCompile Include="work_4_7.c">
       <Filter>源文件\第四章</Filter>
+    </ClCompile>
+    <ClCompile Include="cmpflt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="convert.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="CPrimerPlus.cpp">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="divide.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="min_sec.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="post_pre.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="pound.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="review_5_6.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="review_5_8.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="review_5_9.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="rules.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="shoes1.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="shoes2.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="sizeof.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="squares.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="wheat.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_5_1.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_5_2.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_5_3.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_5_4.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_5_5.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_5_6.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_5_7.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_5_8.c">
+      <Filter>源文件\第五章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_5_9.c">
+      <Filter>源文件\第五章</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
