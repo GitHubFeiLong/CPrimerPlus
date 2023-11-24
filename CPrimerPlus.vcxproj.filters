@@ -31,6 +31,9 @@
     <Filter Include="源文件\第六章">
       <UniqueIdentifier>{14d0ddb8-719d-41e0-92f1-6275c839c5d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第七章">
+      <UniqueIdentifier>{125a84ca-037b-4507-895c-8358db2d4699}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first2_1.c">
@@ -305,6 +308,60 @@
     </ClCompile>
     <ClCompile Include="work_6_18.c">
       <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="cypher1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cyper2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="electric.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wordcnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="paint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skippart.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="break.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="animals.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_7_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_7_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_7_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_7_4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_7_6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_7_7.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_7_8.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_7_9.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_7_10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_7_11.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
