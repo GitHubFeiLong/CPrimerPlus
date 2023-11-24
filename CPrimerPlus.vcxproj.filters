@@ -237,50 +237,74 @@
     <ClCompile Include="cmpflt.c">
       <Filter>源文件\第六章</Filter>
     </ClCompile>
-    <ClCompile Include="scores_in.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="power.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="review_6_7_a.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="review_6_8_a.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="review_6_8_b.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="scores_in.c">
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="work_6_1.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="work_6_2.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="work_6_3.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="work_6_4.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="work_6_5.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="work_6_6.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="work_6_7.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="work_6_8.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="work_6_9.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
     <ClCompile Include="work_6_10.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_11.c">
+      <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_12.c">
+      <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_13.c">
+      <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_14.c">
+      <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_15.c">
+      <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_16.c">
+      <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_17.c">
+      <Filter>源文件\第六章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_6_18.c">
+      <Filter>源文件\第六章</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
