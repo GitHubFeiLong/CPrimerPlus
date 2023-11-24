@@ -13,18 +13,20 @@ void printMenu(void);
 
 int main(void)
 {
-	char type;
-	int flag = 0;
-	float f1 = 0.0F;
-	float f2 = 0.0F;
-	float f3 = 0.0F;
-	float f1Total = 0.0F;
-	float f2Total = 0.0F;
-	float f3Total = 0.0F;
-	float allTotal = 0.0F;
-	float allAmount = 0.0F;
-	float zk;
-	float allFright;
+	char type;	// 1
+	int flag = 0;	// 2
+	float f1 = 0.0F;	// 2
+	float f2 = 0.0F;	// 2
+	float f3 = 0.0F;	// 2
+	float f1Total = 0.0F;	// 2
+	float f2Total = 0.0F;	// 2
+	float f3Total = 0.0F;	// 2
+	float allTotal = 0.0F;	// 2
+	float allAmount = 0.0F;		// 2
+	float rawAllAmount = 0.0F; // 2
+	float zk; // 2
+	float allFright = 0.0F; // 2
+	float temp = 0.0F; // 2
 
 	printMenu();
 	while (scanf("%c", &type) && type != 'q')
@@ -48,8 +50,8 @@ int main(void)
 			scanf("%f", &f3);
 			f3Total += f3;
 			break;
-		default:
-			continue;
+		default: // 使用scanf输入磅数时的回车字符，也会进入循环
+			continue; // 1
 		}
 		printMenu();
 	}
@@ -64,35 +66,45 @@ int main(void)
 		if (f2Total > 0)
 		{
 			allAmount += f2Total * FOOD2;
-			printf("甜菜($%.2f/磅)%.2f磅", FOOD2, f2Total);
+			printf("甜菜($%.2f/磅)%.2f磅\n", FOOD2, f2Total);
 		}
 		if (f3Total > 0)
 		{
 			allAmount += f3Total * FOOD3;
-			printf("胡萝卜($%.2f/磅)%.2f磅", FOOD3, f3Total);
+			printf("胡萝卜($%.2f/磅)%.2f磅\n", FOOD3, f3Total);
 		}
 
 		// 总磅数
 		allTotal = f1Total + f2Total + f3Total;
-		if (allAmount >= 100)
+		rawAllAmount = allAmount;
+		// 超过100美元打5%的折扣
+		if (rawAllAmount >= 100)
 		{
-			allAmount *= DISCOUNT;
+			// 计算折扣
+			zk = rawAllAmount - (1 - DISCOUNT) * allAmount;
+			allAmount -= zk;
 		}
 
 		if (allTotal <= 5)
 		{
 			allAmount += FREIGHT1;
+			allFright += FREIGHT1;
 		}
 		else if (allTotal <= 20)
 		{
 			allAmount += FREIGHT2;
+			allFright += FREIGHT2;
 		}
 		else
 		{
-			allAmount += FREIGHT2 + (allTotal - 20) * FREIGHT3;
+			temp = (allTotal - 20) * FREIGHT3;
+			allFright += temp;
+			allAmount += FREIGHT2 + temp;
 		}
+
+		printf("货物总价：%f; 折扣：%f，运费和包装费：%f，total:%f", rawAllAmount, zk, allFright, allAmount);
 	}
-	
+
 
 	return 0;
 }
