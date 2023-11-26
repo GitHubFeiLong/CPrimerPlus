@@ -37,6 +37,12 @@
     <Filter Include="源文件\第八章">
       <UniqueIdentifier>{ada212b1-1eb0-4eb5-8902-003b06b5ac35}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\第九章">
+      <UniqueIdentifier>{4a15bad9-b03b-48f1-9427-60e961b78cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第九章">
+      <UniqueIdentifier>{06ba2901-0ef1-4f39-a4d0-d06028404903}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first2_1.c">
@@ -408,5 +414,40 @@
     <ClCompile Include="work_8_8.c">
       <Filter>源文件\第八章</Filter>
     </ClCompile>
+    <ClCompile Include="binary.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="factor.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="hotel.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="lesser.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="lethead1.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="lethead2.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="recur.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="review_9_9.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="swap3.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="usehotel.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hotel.h">
+      <Filter>头文件\第九章</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
