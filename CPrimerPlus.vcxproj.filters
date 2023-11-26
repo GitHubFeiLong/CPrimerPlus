@@ -34,6 +34,9 @@
     <Filter Include="源文件\第七章">
       <UniqueIdentifier>{125a84ca-037b-4507-895c-8358db2d4699}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第八章">
+      <UniqueIdentifier>{ada212b1-1eb0-4eb5-8902-003b06b5ac35}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first2_1.c">
@@ -309,59 +312,101 @@
     <ClCompile Include="work_6_18.c">
       <Filter>源文件\第六章</Filter>
     </ClCompile>
-    <ClCompile Include="cypher1.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="cyper2.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="electric.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="wordcnt.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="paint.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="skippart.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="break.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="animals.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="work_7_11.c">
+      <Filter>源文件\第七章</Filter>
     </ClCompile>
     <ClCompile Include="work_7_1.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第七章</Filter>
     </ClCompile>
     <ClCompile Include="work_7_2.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第七章</Filter>
     </ClCompile>
     <ClCompile Include="work_7_3.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第七章</Filter>
     </ClCompile>
     <ClCompile Include="work_7_4.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第七章</Filter>
     </ClCompile>
     <ClCompile Include="work_7_6.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第七章</Filter>
     </ClCompile>
     <ClCompile Include="work_7_7.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第七章</Filter>
     </ClCompile>
     <ClCompile Include="work_7_8.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第七章</Filter>
     </ClCompile>
     <ClCompile Include="work_7_9.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第七章</Filter>
     </ClCompile>
     <ClCompile Include="work_7_10.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第七章</Filter>
     </ClCompile>
-    <ClCompile Include="work_7_11.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="wordcnt.c">
+      <Filter>源文件\第七章</Filter>
+    </ClCompile>
+    <ClCompile Include="skippart.c">
+      <Filter>源文件\第七章</Filter>
+    </ClCompile>
+    <ClCompile Include="animals.c">
+      <Filter>源文件\第七章</Filter>
+    </ClCompile>
+    <ClCompile Include="break.c">
+      <Filter>源文件\第七章</Filter>
+    </ClCompile>
+    <ClCompile Include="cyper2.c">
+      <Filter>源文件\第七章</Filter>
+    </ClCompile>
+    <ClCompile Include="cypher1.c">
+      <Filter>源文件\第七章</Filter>
+    </ClCompile>
+    <ClCompile Include="electric.c">
+      <Filter>源文件\第七章</Filter>
+    </ClCompile>
+    <ClCompile Include="paint.c">
+      <Filter>源文件\第七章</Filter>
+    </ClCompile>
+    <ClCompile Include="checking.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="echo.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="echo_eof.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="file_eof.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="guess.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="review_8_3.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="showchar1.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_8_1.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_8_2.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_8_3.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_8_4.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_8_5.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_8_6.c">
+      <Filter>源文件\第八章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_8_8.c">
+      <Filter>源文件\第八章</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
