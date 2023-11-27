@@ -444,6 +444,30 @@
     <ClCompile Include="usehotel.c">
       <Filter>源文件\第九章</Filter>
     </ClCompile>
+    <ClCompile Include="work_9_1.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_9_2.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_9_3.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_9_4.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_9_5.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_9_6.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_9_7.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_9_10.c">
+      <Filter>源文件\第九章</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hotel.h">
