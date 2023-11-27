@@ -43,6 +43,9 @@
     <Filter Include="源文件\第九章">
       <UniqueIdentifier>{06ba2901-0ef1-4f39-a4d0-d06028404903}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第十章">
+      <UniqueIdentifier>{600177c2-ce5b-489d-bece-30404345a47c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first2_1.c">
@@ -467,6 +470,27 @@
     </ClCompile>
     <ClCompile Include="work_9_10.c">
       <Filter>源文件\第九章</Filter>
+    </ClCompile>
+    <ClCompile Include="array2d.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="bounds.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="flc.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="ptr_ops.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="vararr2d.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="zippo1.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="zippo2.c">
+      <Filter>源文件\第十章</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
