@@ -66,21 +66,6 @@
     <ClCompile Include="convertAge2Days.c">
       <Filter>源文件\第二章\编程练习</Filter>
     </ClCompile>
-    <ClCompile Include="work4.c">
-      <Filter>源文件\第二章\编程练习</Filter>
-    </ClCompile>
-    <ClCompile Include="work5.c">
-      <Filter>源文件\第二章\编程练习</Filter>
-    </ClCompile>
-    <ClCompile Include="work6.c">
-      <Filter>源文件\第二章\编程练习</Filter>
-    </ClCompile>
-    <ClCompile Include="work7.c">
-      <Filter>源文件\第二章\编程练习</Filter>
-    </ClCompile>
-    <ClCompile Include="work8.c">
-      <Filter>源文件\第二章\编程练习</Filter>
-    </ClCompile>
     <ClCompile Include="platinum.c">
       <Filter>源文件\第三章</Filter>
     </ClCompile>
@@ -490,6 +475,63 @@
       <Filter>源文件\第十章</Filter>
     </ClCompile>
     <ClCompile Include="zippo2.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="rain.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_1.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_2.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_3.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_4.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_5.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_6.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_7.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_8.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_9.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_10.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_11.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_12.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_10_13.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work2_4.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work2_5.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work2_6.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work2_7.c">
+      <Filter>源文件\第十章</Filter>
+    </ClCompile>
+    <ClCompile Include="work2_8.c">
       <Filter>源文件\第十章</Filter>
     </ClCompile>
   </ItemGroup>
