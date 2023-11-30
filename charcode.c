@@ -1,4 +1,4 @@
-/* charcode.c - ÏÔÊ¾×Ö·ûµÄ´úÂë±àºÅ */
+ï»¿/* charcode.c - æ˜¾ç¤ºå­—ç¬¦çš„ä»£ç ç¼–å· */
 #include <stdio.h>
 
 int main(void)

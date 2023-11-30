@@ -1,4 +1,4 @@
-/* zippo2.c -- Í¨¹ıÖ¸Õë»ñÈ¡zippoµÄĞÅÏ¢ */
+ï»¿/* zippo2.c -- é€šè¿‡æŒ‡é’ˆè·å–zippoçš„ä¿¡æ¯ */
 #include <stdio.h>
 
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
 			{1,3},
 			{5,7}
 	};
-	int(*pz)[2]; // pzÖ¸ÏòÒ»¸öÄÚº¬Á½¸öintÀàĞÍÖµµÄÊı×é
+	int(*pz)[2]; // pzæŒ‡å‘ä¸€ä¸ªå†…å«ä¸¤ä¸ªintç±»å‹å€¼çš„æ•°ç»„
 	pz = zippo;
 
 	printf("pz = %p, pz + 1 = %p\n", pz, pz + 1);

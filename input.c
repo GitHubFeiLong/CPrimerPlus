@@ -1,6 +1,6 @@
-/* input.c -- ºÎÊ±Ê¹ÓÃ &*/
-/* Ê¹ÓÃscanf(),¶ÁÈ¡»ù±¾±äÁ¿ÀàĞÍµÄÖµ£¬±äÁ¿¼ÓÉÏ & */
-/* Ê¹ÓÃscanf(),°Ñ×Ö·û´®¶ÁÈë×Ö·ûÊı×éÖµ£¬²»¼Ó & */
+ï»¿/* input.c -- ä½•æ—¶ä½¿ç”¨ &*/
+/* ä½¿ç”¨scanf(),è¯»å–åŸºæœ¬å˜é‡ç±»å‹çš„å€¼ï¼Œå˜é‡åŠ ä¸Š & */
+/* ä½¿ç”¨scanf(),æŠŠå­—ç¬¦ä¸²è¯»å…¥å­—ç¬¦æ•°ç»„å€¼ï¼Œä¸åŠ  & */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
@@ -10,7 +10,7 @@ int main(void)
 	float assets;
 	char pet[30];
 	printf("Enter your age, assets, and favorite pet.\n");
-	scanf("%d %f", &age, &assets); // scanfÊ¹ÓÃ¿Õ°×£¨»»ĞĞ·û ÖÆ±í·ûºÍ¿Õ¸ñ£©°ÑÊäÈë·Ö³É¶à¶Î¡£
+	scanf("%d %f", &age, &assets); // scanfä½¿ç”¨ç©ºç™½ï¼ˆæ¢è¡Œç¬¦ åˆ¶è¡¨ç¬¦å’Œç©ºæ ¼ï¼‰æŠŠè¾“å…¥åˆ†æˆå¤šæ®µã€‚
 	scanf("%s", pet);
 	printf("%d $%.2f %s\n", age, assets, pet);
 

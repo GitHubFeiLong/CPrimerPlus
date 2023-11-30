@@ -1,4 +1,4 @@
-/* put_out.c -- ʹ�� puts()*/
+﻿/* put_out.c -- 使用 puts()*/
 #include <stdio.h>
 #define DEF "I am a #defined string."
 

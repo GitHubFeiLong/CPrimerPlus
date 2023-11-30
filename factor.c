@@ -1,4 +1,4 @@
-// factor.c -- Ê¹ÓÃÑ­»·ºÍµÝ¹é¼ÆËã½×³Ë
+ï»¿// factor.c -- ä½¿ç”¨å¾ªçŽ¯å’Œé€’å½’è®¡ç®—é˜¶ä¹˜
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 

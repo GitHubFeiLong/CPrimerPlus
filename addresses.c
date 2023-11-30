@@ -1,4 +1,4 @@
-/* addresses.c -- ×Ö·û´®µØÖ· */
+ï»¿/* addresses.c -- å­—ç¬¦ä¸²åœ°å€ */
 #include <stdio.h>
 #define MSG "I'm special"
 

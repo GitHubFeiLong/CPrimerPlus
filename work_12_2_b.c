@@ -1,4 +1,4 @@
-/*work12_2_b.c*/
+﻿/*work12_2_b.c*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "work_12_2_a.h"

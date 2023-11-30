@@ -1,4 +1,4 @@
-/* ;esser.c --ÕÒ³öÁ½¸öÕûÊıÖĞ½ÏĞ¡µÄÒ»¸ö */
+ï»¿/* ;esser.c --æ‰¾å‡ºä¸¤ä¸ªæ•´æ•°ä¸­è¾ƒå°çš„ä¸€ä¸ª */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 

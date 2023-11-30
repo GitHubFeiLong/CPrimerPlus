@@ -1,4 +1,4 @@
-/* sizeof.c --Ê¹ÓÃsizeofÔËËã·û */
+ï»¿/* sizeof.c --ä½¿ç”¨sizeofè¿ç®—ç¬¦ */
 #include <stdio.h>
 
 int main(void)

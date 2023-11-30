@@ -1,17 +1,17 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
 {
 	char ch;
 
-	// ÊäÈë ¡°Go west, young man!¡±
-	// Êä³ö ¡°Go west, youn¡±
-	scanf("%c", &ch); // ¶ÁÈ¡µÚÒ»¸ö×Ö·û
+	// è¾“å…¥ â€œGo west, young man!â€
+	// è¾“å‡º â€œGo west, younâ€
+	scanf("%c", &ch); // è¯»å–ç¬¬ä¸€ä¸ªå­—ç¬¦
 	while (ch != 'g')
 	{
 		printf("%c", ch);
-		scanf("%c", &ch); // »á½Ó×Å¶ÁÈ¡ºóĞø×Ö·ûµ½ch±äÁ¿ÖĞ£¬Ö±µ½¿Õ°×·û£¨»»ĞĞ£©
+		scanf("%c", &ch); // ä¼šæ¥ç€è¯»å–åç»­å­—ç¬¦åˆ°chå˜é‡ä¸­ï¼Œç›´åˆ°ç©ºç™½ç¬¦ï¼ˆæ¢è¡Œï¼‰
 	}
 
 	return 0;

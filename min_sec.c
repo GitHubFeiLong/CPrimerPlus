@@ -1,14 +1,14 @@
-/* min_sec.c -- °ÑÃëÊı×ª»»³É·ÖºÍÃë */
+ï»¿/* min_sec.c -- æŠŠç§’æ•°è½¬æ¢æˆåˆ†å’Œç§’ */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#define SEC_PER_MIN 60 // 1·ÖÖÓ60Ãë
+#define SEC_PER_MIN 60 // 1åˆ†é’Ÿ60ç§’
 
 int main(void)
 {
 	int sec, min, left;
 	printf("Convert seconds to minutes and seconds!\n");
 	printf("Enter the number of seconds (<=0 to quit):\n");
-	scanf("%d", &sec); // ¶ÁÈ¡ÃëÊı
+	scanf("%d", &sec); // è¯»å–ç§’æ•°
 	while (sec > 0)
 	{
 		min = sec / SEC_PER_MIN;

@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #define SYMBNLE '$'
 
 int main(void)

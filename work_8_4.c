@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <ctype.h>
 
 int main(void)
@@ -11,10 +11,10 @@ int main(void)
 	for (i = 0; i < 52; i++)
 		nums[i] = 0;
 
-	// Ê¹ÓÃ Enter£¬Ctrl+Z£¬Enter ¡°ÊäÈë¡± EOF
+	// ä½¿ç”¨ Enterï¼ŒCtrl+Zï¼ŒEnter â€œè¾“å…¥â€ EOF
 	while ((c = getchar()) != EOF)
 	{
-		// ÊÇ·ñÊÇÐ¡Ð´×ÖÄ¸
+		// æ˜¯å¦æ˜¯å°å†™å­—æ¯
 		if (islower(c))
 		{
 			nums[(int)c - 97 + 26] += 1;
@@ -24,7 +24,7 @@ int main(void)
 			nums[(int)c - 65] += 1;
 		}
 	}
-	printf("Ð¡Ð´×ÖÄ¸\n");
+	printf("å°å†™å­—æ¯\n");
 	for (i = 0, j = 0; i < 26; i++)
 	{
 		;
@@ -37,7 +37,7 @@ int main(void)
 		}
 	}
 
-	printf("\n´óÐ´×ÖÄ¸\n");
+	printf("\nå¤§å†™å­—æ¯\n");
 	for (i = 26, j = 0; i < 52; i++)
 	{
 		temp = i + 97 - 26;

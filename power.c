@@ -1,7 +1,7 @@
-// power.c -- ¼ÆËãÊıµÄÕûÊıÃİ
+ï»¿// power.c -- è®¡ç®—æ•°çš„æ•´æ•°å¹‚
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-double power(double n, int p); // ANSI º¯ÊıÔ­ĞÍ
+double power(double n, int p); // ANSI å‡½æ•°åŸå‹
 
 int main(void)
 {
@@ -11,7 +11,7 @@ int main(void)
 	printf("Enter a number and the positive integer power");
 	printf(" to which\nthe number will be raised. Enter q");
 	printf(" to quit.\n");
-	while (scanf("%lf%d", &x, &exp) == 2) // scanf ·µ»ØÖµ£¬¶ÁÈ¡µ½¶àÉÙ¸öÖµ¾Í·µ»Ø¼¸¡£Î´¶ÁÈ¡£¬»ò²»Æ¥ÅäÊÇµ½·µ»Ø0
+	while (scanf("%lf%d", &x, &exp) == 2) // scanf è¿”å›å€¼ï¼Œè¯»å–åˆ°å¤šå°‘ä¸ªå€¼å°±è¿”å›å‡ ã€‚æœªè¯»å–ï¼Œæˆ–ä¸åŒ¹é…æ˜¯åˆ°è¿”å›0
 	{
 		xpow = power(x, exp);
 		printf("%.3g to the power %d is %.5g\n", x, exp, xpow);
@@ -22,7 +22,7 @@ int main(void)
 	return 0;
 }
 
-double power(double n, int p) // º¯Êı¶¨Òå
+double power(double n, int p) // å‡½æ•°å®šä¹‰
 {
 	double pow = 1;
 	int i;

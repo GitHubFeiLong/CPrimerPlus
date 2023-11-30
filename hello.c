@@ -1,4 +1,4 @@
-/* hello.c -- °ÑÃüÁîÐÐ²ÎÊý×ª»»ÎªÊý×Ö */
+ï»¿/* hello.c -- æŠŠå‘½ä»¤è¡Œå‚æ•°è½¬æ¢ä¸ºæ•°å­— */
 #include <stdio.h>
 #include <stdlib.h>
 

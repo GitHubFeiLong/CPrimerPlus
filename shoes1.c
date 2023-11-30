@@ -1,10 +1,10 @@
-/* shoes1.c --°ÑĞ¬Âë×ª»»³ÉÓ¢´ç */
+ï»¿/* shoes1.c --æŠŠé‹ç è½¬æ¢æˆè‹±å¯¸ */
 #include <stdio.h>
-#define ADJUST 7.31 // ×Ö·û³£Á¿
+#define ADJUST 7.31 // å­—ç¬¦å¸¸é‡
 
 int main(void)
 {
-	const double SCALE = 0.333; // const±äÁ¿
+	const double SCALE = 0.333; // constå˜é‡
 	double shoe, foot;
 
 	shoe = 9.0;

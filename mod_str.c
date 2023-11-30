@@ -1,4 +1,4 @@
-/* mod_str.c -- ĞŞ¸Ä×Ö·û´®*/
+ï»¿/* mod_str.c -- ä¿®æ”¹å­—ç¬¦ä¸²*/
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
@@ -14,7 +14,7 @@ int main(void)
 
 	puts("Please enter a line:");
 	fgets(line, LIMIT, stdin);
-	find = strchr(line, '\n'); // ²éÕÒ»»ĞĞ·û
+	find = strchr(line, '\n'); // æŸ¥æ‰¾æ¢è¡Œç¬¦
 	if (find)
 		*find = '\0';
 	ToUpper(line);

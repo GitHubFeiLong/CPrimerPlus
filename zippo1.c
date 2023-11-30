@@ -1,4 +1,4 @@
-/* zippo1.c -- zippoµÄÏà¹ØĞÅÏ¢ */
+ï»¿/* zippo1.c -- zippoçš„ç›¸å…³ä¿¡æ¯ */
 #include <stdio.h>
 
 int main(void)

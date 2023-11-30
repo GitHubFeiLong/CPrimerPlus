@@ -1,12 +1,12 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void)
 {
 	int age;
 	float seconds = 3.156e7; // 3.156 * 10000000
 
-	printf("ÊäÈëÄãµÄÄêÁä£º");
+	printf("è¾“å…¥ä½ çš„å¹´é¾„ï¼š");
 	scanf_s("%d", &age);
-	printf("\nÄã½ñÄê%dËê£¬´æ»îÁË%.fÃë", age, seconds * age);
+	printf("\nä½ ä»Šå¹´%då²ï¼Œå­˜æ´»äº†%.fç§’", age, seconds * age);
 	return 0;
 }

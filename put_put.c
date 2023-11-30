@@ -1,4 +1,4 @@
-// put_put.c ÓÃ»§×Ô¶¨ÒåÊä³öº¯Êı
+ï»¿// put_put.c ç”¨æˆ·è‡ªå®šä¹‰è¾“å‡ºå‡½æ•°
 #include <stdio.h>
 void put1(const char*);
 int put2(const char*);

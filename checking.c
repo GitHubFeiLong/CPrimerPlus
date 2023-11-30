@@ -1,4 +1,4 @@
-/* checking.c --ÊäÈëÑéÖ¤ */
+ï»¿/* checking.c --è¾“å…¥éªŒè¯ */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdbool.h>

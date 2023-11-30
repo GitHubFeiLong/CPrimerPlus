@@ -1,4 +1,4 @@
-/* printNameAndAddress.c -- ´òÓ¡ĞÕÃûºÍµØÖ· */	
+ï»¿/* printNameAndAddress.c -- æ‰“å°å§“åå’Œåœ°å€ */	
 #include <stdio.h>
 
 int main(void)

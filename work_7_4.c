@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
@@ -26,7 +26,7 @@ int main(void)
 		}
 	}
 
-	printf("\nÒ»¹²Ö´ĞĞÁË%d´Î'.'Ìæ»»£¬Ö´ĞĞÁË%d´Î'!'Ìæ»».\n", count1, count2);
+	printf("\nä¸€å…±æ‰§è¡Œäº†%dæ¬¡'.'æ›¿æ¢ï¼Œæ‰§è¡Œäº†%dæ¬¡'!'æ›¿æ¢.\n", count1, count2);
 
 	return 0;
 }

@@ -1,4 +1,4 @@
-/* squares.c -- ¼ÆËã1~20µÄÆ½·½ */
+ï»¿/* squares.c -- è®¡ç®—1~20çš„å¹³æ–¹ */
 #include <stdio.h>
 
 int main(void)

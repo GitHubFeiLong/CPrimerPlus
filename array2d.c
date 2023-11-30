@@ -1,4 +1,4 @@
-/* array2d.c -- ´¦Àí¶şÎ¬Êı×éµÄº¯Êı */
+ï»¿/* array2d.c -- å¤„ç†äºŒç»´æ•°ç»„çš„å‡½æ•° */
 #include <stdio.h>
 #define ROWS 3
 #define COLS 4

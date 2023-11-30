@@ -1,4 +1,4 @@
-/* scan_str.c -- Ê¹ÓÃscanf() */
+ï»¿/* scan_str.c -- ä½¿ç”¨scanf() */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
@@ -8,7 +8,7 @@ int main(void)
 	int count;
 
 	printf("Please enter 2 names.\n");
-	// ·Ö±ğ¶ÁÈ¡5¸öºÍ10¸ö×Ö·û
+	// åˆ†åˆ«è¯»å–5ä¸ªå’Œ10ä¸ªå­—ç¬¦
 	count = scanf("%5s %10s", name1, name2);
 	printf("I read the %d names %s and %s.\n", count, name1, name2);
 

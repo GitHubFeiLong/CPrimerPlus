@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 void Temperatures(double hswd);
 
@@ -7,7 +7,7 @@ int main(void)
 	double hswd;
 	int scanfR;
 
-	printf("ÊäÈë»ªÊÏÎÂ¶È£º");
+	printf("è¾“å…¥åæ°æ¸©åº¦ï¼š");
 	while ((scanf("%lf", &hswd)) == 1)
 	{
 		Temperatures(hswd);
@@ -24,10 +24,10 @@ void Temperatures(double hswd)
 	float sswd;
 	float kswd;
 
-	// ÉãÊÏÎÂ¶È = 5.0 / 9.0 * (»ªÊÏÎÂ¶È - 32.0)
+	// æ‘„æ°æ¸©åº¦ = 5.0 / 9.0 * (åæ°æ¸©åº¦ - 32.0)
 	sswd = f1 / f2 * (hswd - f3);
-	// ¿ªÊÏÎÂ¶È = ÉãÊÏÎÂ¶È + 273.16
+	// å¼€æ°æ¸©åº¦ = æ‘„æ°æ¸©åº¦ + 273.16
 	kswd = sswd + f4;
 
-	printf("»ªÊÏÎÂ¶È£º%.2f£¬ÉãÊÏÎÂ¶È£º%.2f£¬¿ªÊ½ÎÂ¶È£º%.2f\n", hswd, sswd, kswd);
+	printf("åæ°æ¸©åº¦ï¼š%.2fï¼Œæ‘„æ°æ¸©åº¦ï¼š%.2fï¼Œå¼€å¼æ¸©åº¦ï¼š%.2f\n", hswd, sswd, kswd);
 }

@@ -1,4 +1,4 @@
-// bounds.c -- Êı×éÏÂ±êÔ½½ç
+ï»¿// bounds.c -- æ•°ç»„ä¸‹æ ‡è¶Šç•Œ
 #include <stdio.h>
 #define SIZE 4
 

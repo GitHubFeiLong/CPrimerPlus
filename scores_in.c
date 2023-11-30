@@ -1,4 +1,4 @@
-// scores_in.c --Ê¹ÓÃÑ­»·´¦ÀíÊı×é
+ï»¿// scores_in.c --ä½¿ç”¨å¾ªç¯å¤„ç†æ•°ç»„
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define SIZE 10
@@ -12,7 +12,7 @@ int main(void)
 
 	printf("Enter %d golf scores:\n", SIZE);
 	for (index = 0; index < SIZE; index++)
-		scanf("%d", &score[index]); // ¶ÁÈ¡·ÖÊı
+		scanf("%d", &score[index]); // è¯»å–åˆ†æ•°
 	printf("The scores read in are as follows:\n");
 	for (index = 0; index < SIZE; index++)
 		printf("%5d", score[index]);

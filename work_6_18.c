@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #define BEGIN_NUM 5
 #define MAX 150
 
@@ -12,7 +12,7 @@ int main(void)
 		friends = (friends - sub) * multiple;
 		weeks++;
 	}
-	printf("¾­¹ı%dÖÜ£¬ÅóÓÑÊıÁ¿´ïµ½£º%d", weeks, friends);
+	printf("ç»è¿‡%då‘¨ï¼Œæœ‹å‹æ•°é‡è¾¾åˆ°ï¼š%d", weeks, friends);
 
 	return 0;
 }

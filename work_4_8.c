@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 #define D1 3.785
@@ -7,15 +7,15 @@
 
 int main(void)
 {
-	float lc, consume; // Àï³ÌºÍÏûºÄµÄÆûÓÍÁ¿
+	float lc, consume; // é‡Œç¨‹å’Œæ¶ˆè€—çš„æ±½æ²¹é‡
 	float f3;
 	float f4;
-	printf("ÇëÊäÈëÂÃĞĞµÄÀï³ÌºÍÆûÓÍÁ¿ÓÃ¡°,¡±·Ö¸ô:\n");
+	printf("è¯·è¾“å…¥æ—…è¡Œçš„é‡Œç¨‹å’Œæ±½æ²¹é‡ç”¨â€œ,â€åˆ†éš”:\n");
 	scanf("%f,%f", &lc, &consume);
 	f3 = consume / lc;
-	printf("ÏûºÄÃ¿¼ÓÂØÆûÓÍĞĞÊ»µÄÓ¢ÀïÊı£º%.1f.\n", f3);
+	printf("æ¶ˆè€—æ¯åŠ ä»‘æ±½æ²¹è¡Œé©¶çš„è‹±é‡Œæ•°ï¼š%.1f.\n", f3);
 	f4 = (D2 * lc) / (D1 * consume) / D3;
-	prinf("×ª»»³ÉÉı/100¹«Àï£º%.1f.\n", f4);
+	printf("è½¬æ¢æˆå‡/100å…¬é‡Œï¼š%.1f.\n", f4);
 
 
 	return 0;

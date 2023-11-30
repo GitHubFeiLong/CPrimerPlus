@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define SIZE 8
 
@@ -7,7 +7,7 @@ int main(void)
 	double d1s[SIZE], d2s[SIZE], temp;
 	int i, j;
 
-	printf("ÇëÊäÈë8¸ödoubleÀàĞÍµÄÊıÖµ£º\n");
+	printf("è¯·è¾“å…¥8ä¸ªdoubleç±»å‹çš„æ•°å€¼ï¼š\n");
 	for (i = 0; i < SIZE; i++)
 	{
 		scanf("%lf", &d1s[i]);

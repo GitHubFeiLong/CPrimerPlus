@@ -1,10 +1,10 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
 int main(void)
 {
 	char name[40];
-	printf("ÇëÊäÈëÄãµÄĞÕÃû:\n");
+	printf("è¯·è¾“å…¥ä½ çš„å§“å:\n");
 	scanf("%s", name);
 	printf("\"%s\"\n", name);
 	printf("\"%+20s\"\n", name);

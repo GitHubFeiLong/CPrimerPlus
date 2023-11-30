@@ -1,17 +1,17 @@
-/* work4.c -- Ö¸¶¨Êä³öÄÚÈİ */
+ï»¿/* work4.c -- æŒ‡å®šè¾“å‡ºå†…å®¹ */
 #include <stdio.h>
-void jolly(void); // ANSI/ISO Cº¯ÊıÔ­ĞÍ£¨Ò²½Ğº¯ÊıÉùÃ÷£©
-void deny(void); // ANSI/ISO Cº¯ÊıÔ­ĞÍ£¨Ò²½Ğº¯ÊıÉùÃ÷£©
+void jolly(void); // ANSI/ISO Cå‡½æ•°åŸå‹ï¼ˆä¹Ÿå«å‡½æ•°å£°æ˜ï¼‰
+void deny(void); // ANSI/ISO Cå‡½æ•°åŸå‹ï¼ˆä¹Ÿå«å‡½æ•°å£°æ˜ï¼‰
 
 int main(void)
 {
-	jolly(); // º¯Êıµ÷ÓÃ
-	deny(); // º¯Êıµ÷ÓÃ
+	jolly(); // å‡½æ•°è°ƒç”¨
+	deny(); // å‡½æ•°è°ƒç”¨
 
 	return 0;
 }
 
-// º¯Êı¶¨Òå
+// å‡½æ•°å®šä¹‰
 void jolly(void)
 {
 	printf("Fir he's a jolly good fellow!\n");
@@ -19,7 +19,7 @@ void jolly(void)
 	printf("Fir he's a jolly good fellow!\n");
 }
 
-// º¯Êı¶¨Òå
+// å‡½æ•°å®šä¹‰
 void deny(void)
 {
 	printf("Which nobody can deny!\n");

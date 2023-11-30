@@ -1,13 +1,13 @@
-/* altnames.c -- ¿ÉÒÆÖ²ÕûÊıÀàĞÍÃû*/
+ï»¿/* altnames.c -- å¯ç§»æ¤æ•´æ•°ç±»å‹å*/
 #include <stdio.h>
-#include <inttypes.h> // Ö§³Ö¿ÉÒÆÖ²ÀàĞÍ
+#include <inttypes.h> // æ”¯æŒå¯ç§»æ¤ç±»å‹
 int main(void)
 {
-	int32_t me32; // me32ÊÇÒ»¸ö32Î»ÓĞ·ûºÅÕûĞÍ±äÁ¿
+	int32_t me32; // me32æ˜¯ä¸€ä¸ª32ä½æœ‰ç¬¦å·æ•´å‹å˜é‡
 
 	me32 = 45933945;
 	/*
-		ÒÔÏÂÊä³ö£º
+		ä»¥ä¸‹è¾“å‡ºï¼š
 		First, assume int32_t is int:me32 = 45933945
 		Next, let's not make any assumptions.
 		Instead, use a "macro" form inttypes.h:me32 = 45933945
@@ -16,7 +16,7 @@ int main(void)
 	printf("me32 = %d\n", me32);
 	printf("Next, let's not make any assumptions.\n");
 	printf("Instead, use a \"macro\" form inttypes.h:");
-	printf("me32 = %" PRId32 "\n", me32); // µÈ¼ÛÓÚ printf("me32 = %" "d" "\n", me32) Ò²µÈ¼ÛÓÚ printf("me32 = %d\n", me32)
+	printf("me32 = %" PRId32 "\n", me32); // ç­‰ä»·äº printf("me32 = %" "d" "\n", me32) ä¹Ÿç­‰ä»·äº printf("me32 = %d\n", me32)
 
 	return 0;
 }

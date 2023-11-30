@@ -1,12 +1,12 @@
-/* post_pre.c -- Ç°×ººÍºó×º */
+ï»¿/* post_pre.c -- å‰ç¼€å’Œåç¼€ */
 #include <stdio.h>
 int main(void)
 {
 	int a = 1, b = 1;
 	int a_post, pre_b;
 
-	a_post = a++; // ºó×ºµİÔö,ÏÈÊ¹ÓÃaµÄÖµ¸´ÖÆ¸øa_post£¬È»ºóaÔÙ×ÔÔö
-	pre_b = ++b; // Ç°×ºµİÔö£¬ÏÈµİÔöbµÄÖµ£¬ÔÙ¸øpre_b¸³Öµ¡£
+	a_post = a++; // åç¼€é€’å¢,å…ˆä½¿ç”¨açš„å€¼å¤åˆ¶ç»™a_postï¼Œç„¶åaå†è‡ªå¢
+	pre_b = ++b; // å‰ç¼€é€’å¢ï¼Œå…ˆé€’å¢bçš„å€¼ï¼Œå†ç»™pre_bèµ‹å€¼ã€‚
 	printf("a a_post b pre_b \n");
 	printf("%1d %5d %5d %5d\n", a, a_post, b, pre_b);
 

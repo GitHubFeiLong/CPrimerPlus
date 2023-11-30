@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 void sort(double* arr, int size);
 void print_arr(double* arr, int size);

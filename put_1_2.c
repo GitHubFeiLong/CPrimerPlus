@@ -1,7 +1,7 @@
-/* put1.c -- ´òÓ¡×Ö·û´®£¬²»Ìí¼Ó\n */
+ï»¿/* put1.c -- æ‰“å°å­—ç¬¦ä¸²ï¼Œä¸æ·»åŠ \n */
 #include <stdio.h>
 
-void put1(const char* string); // ²»»á¸Ä±ä×Ö·û´®
+void put1(const char* string); // ä¸ä¼šæ”¹å˜å­—ç¬¦ä¸²
 
 int main(void)
 {
@@ -12,11 +12,11 @@ int main(void)
 void put1(const char* string)
 {
 	while (*string != '\0')
-		putchar(*string++); // Ò»ÔªÔËËã´ÓÓÒµ½×ó£¬ÏÈÖ´ĞĞstring++,*string»¹ÊÇÖ´ĞĞ++Ç°µÄÖµ¡£
+		putchar(*string++); // ä¸€å…ƒè¿ç®—ä»å³åˆ°å·¦ï¼Œå…ˆæ‰§è¡Œstring++,*stringè¿˜æ˜¯æ‰§è¡Œ++å‰çš„å€¼ã€‚
 }
 
 void put2(const char* string)
 {
-	while (*string) /* µ±stringÖ¸Ïò¿Õ×Ö·û'\0'Ê± `*string`µÄÖµÊÇ0 */
-		putchar(*string++); // Ò»ÔªÔËËã´ÓÓÒµ½×ó£¬ÏÈÖ´ĞĞstring++
+	while (*string) /* å½“stringæŒ‡å‘ç©ºå­—ç¬¦'\0'æ—¶ `*string`çš„å€¼æ˜¯0 */
+		putchar(*string++); // ä¸€å…ƒè¿ç®—ä»å³åˆ°å·¦ï¼Œå…ˆæ‰§è¡Œstring++
 }

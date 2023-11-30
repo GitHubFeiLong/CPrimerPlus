@@ -1,4 +1,4 @@
-/* strcnvt.c -- ʹ��strtol()*/
+﻿/* strcnvt.c -- 使用strtol()*/
 #include <stdio.h>
 #include <stdlib.h>
 #include "s_gets.h"

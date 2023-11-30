@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #define SIZE 7
 
 void copy_arr(int target[], int source[], int size);

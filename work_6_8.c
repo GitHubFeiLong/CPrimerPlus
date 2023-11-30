@@ -1,14 +1,14 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
 {
 	float f1, f2;
-	printf("ÊäÈëÁ½¸ö¸¡µãÊı£¬ÊäÈëqÍË³ö³ÌĞò£º\n");
+	printf("è¾“å…¥ä¸¤ä¸ªæµ®ç‚¹æ•°ï¼Œè¾“å…¥qé€€å‡ºç¨‹åºï¼š\n");
 	while (scanf("%f,%f", &f1, &f2) == 2)
 	{
 		printf("%.2f\n", (f1 - f2) / (f1 * f2));
-		printf("ÊäÈëÁ½¸ö¸¡µãÊı£¬ÊäÈëqÍË³ö³ÌĞò£º\n");
+		printf("è¾“å…¥ä¸¤ä¸ªæµ®ç‚¹æ•°ï¼Œè¾“å…¥qé€€å‡ºç¨‹åºï¼š\n");
 	}
 
 	return 0;

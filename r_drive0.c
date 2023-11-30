@@ -1,4 +1,4 @@
-/* r_dirive0.c -- ²âÊÔrand0()º¯Êı */
+ï»¿/* r_dirive0.c -- æµ‹è¯•rand0()å‡½æ•° */
 #include <stdio.h>
 
 extern unsigned int rand0(void);

@@ -1,9 +1,9 @@
-/* typesize.c -- ´òÓ¡ÀàĞÍ´óĞ¡ */
+ï»¿/* typesize.c -- æ‰“å°ç±»å‹å¤§å° */
 #include <stdio.h>
 
 int main(void)
 {
-	/* C99 ÎªÀàĞÍ´óĞ¡Ìá¹©%zd ×ª»»ËµÃ÷ */
+	/* C99 ä¸ºç±»å‹å¤§å°æä¾›%zd è½¬æ¢è¯´æ˜ */
 
 	printf("Type int has a size of %zd bytes.\n", sizeof(int)); // Type int has a size of 4 bytes.
 	printf("Type char has a size of %zd bytes.\n", sizeof(char)); // Type char has a size of 1 bytes.

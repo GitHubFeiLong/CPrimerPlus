@@ -1,12 +1,12 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#define INCH 2.54 // 1Ó¢´ç = 2.54cm
-#define FEET 30.48 // 1Ó¢³ß = 30.48cm
+#define INCH 2.54 // 1è‹±å¯¸ = 2.54cm
+#define FEET 30.48 // 1è‹±å°º = 30.48cm
 
 int main(void)
 {
-	float height, heightYC1, heightYC2; // Éí¸ßÀåÃ×µ¥Î»£¨1cm£©£¬Éí¸ßÓ¢´çµ¥Î»£¨2.54cm£©£¬Éí¸ßÓ¢³ßµ¥Î»(30.48cm)
-	printf("Enter a height in centimeters£º");
+	float height, heightYC1, heightYC2; // èº«é«˜åŽ˜ç±³å•ä½ï¼ˆ1cmï¼‰ï¼Œèº«é«˜è‹±å¯¸å•ä½ï¼ˆ2.54cmï¼‰ï¼Œèº«é«˜è‹±å°ºå•ä½(30.48cm)
+	printf("Enter a height in centimetersï¼š");
 	scanf("%f", &height);
 
 	while (height > 0)
@@ -15,7 +15,7 @@ int main(void)
 		heightYC2 = height / FEET;
 		printf("%.1f cm = %.f feet, %.1f inches\n", height, heightYC2, heightYC1);
 
-		printf("Enter a height in centimeters£º");
+		printf("Enter a height in centimetersï¼š");
 		scanf("%f", &height);
 	}
 	return 0;

@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <ctype.h>
 #include "s_gets.h"
 
@@ -13,11 +13,11 @@ int main(void)
 
 	do
 	{
-		printf("ÇëÊäÈë×Ö·û´®£º\n");
+		printf("è¯·è¾“å…¥å­—ç¬¦ä¸²ï¼š\n");
 		s_gets(str, 20);
-		printf("ÇëÊäÈëÒª²éÕÒµÄ×Ö·û£º\n");
+		printf("è¯·è¾“å…¥è¦æŸ¥æ‰¾çš„å­—ç¬¦ï¼š\n");
 		while (isspace(c = getchar()))
-			printf("Warning %c ²»ÊÇÒ»¸ö×Ö·û", c);
+			printf("Warning %c ä¸æ˜¯ä¸€ä¸ªå­—ç¬¦", c);
 		fptr = findptr(str, c);
 		//printf("%s\n", fptr);
 	} while (1);

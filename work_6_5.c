@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
@@ -7,20 +7,20 @@ int main(void)
 	char a = 'A';
 	char c;
 
-	printf("ÇëÊäÈë´óĞ´×ÖÄ¸£º");
+	printf("è¯·è¾“å…¥å¤§å†™å­—æ¯ï¼š");
 	scanf("%c", &c);
 	rows = (int)c - a;
 	for (i = 0; i <= rows; i++, a = 'A')
 	{
-		for (j = 0; j < rows - i; j++) // ×ó±ß¿Õ¸ñÊı = ×ÜĞĞÊı-µ±Ç°ĞĞÊı
+		for (j = 0; j < rows - i; j++) // å·¦è¾¹ç©ºæ ¼æ•° = æ€»è¡Œæ•°-å½“å‰è¡Œæ•°
 		{
 			printf(" ");
 		}
-		for (j = 0; j <= i; j++)  // ÉıĞò£¬´Ó 'A' ×ÔÔö
+		for (j = 0; j <= i; j++)  // å‡åºï¼Œä» 'A' è‡ªå¢
 		{
 			printf("%c", a++);
 		}
-		for (j = 0, --a; j < i; j++) // ½µĞò
+		for (j = 0, --a; j < i; j++) // é™åº
 		{
 			printf("%c", --a);
 		}

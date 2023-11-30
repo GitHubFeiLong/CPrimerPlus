@@ -1,10 +1,10 @@
-/* wheat.c -- Ö¸ÊıÔö³¤ */
+ï»¿/* wheat.c -- æŒ‡æ•°å¢é•¿ */
 #include <stdio.h>
-#define SQUARES 64 // ÆåÅÌÖĞµÄ·½¸ñÊı
+#define SQUARES 64 // æ£‹ç›˜ä¸­çš„æ–¹æ ¼æ•°
 
 int main(void)
 {
-	const double CROP = 2E16; // ÊÀ½çĞ¡ÂóÄê²ú¹ÈÁ£Êı
+	const double CROP = 2E16; // ä¸–ç•Œå°éº¦å¹´äº§è°·ç²’æ•°
 	double current, total;
 	int count = 1;
 
@@ -12,13 +12,13 @@ int main(void)
 	printf("fraction of \n");
 	printf("	added		grains		");
 	printf("world total\n");
-	total = current = 1.0; /* ´Ó1¿Å¹ÈÁ£¿ªÊ¼ */
+	total = current = 1.0; /* ä»1é¢—è°·ç²’å¼€å§‹ */
 	printf("%4d %13.2e %12.2e %12.2e\n", count, current, total, total / CROP);
 	while (count < SQUARES)
 	{
 		count = count + 1;
-		current = 2.0 * current; // ÏÂÒ»¸ö·½¸ñ¹ÈÁ£·­±¶
-		total = total + current; // ¸üĞÂ×ÜÊı
+		current = 2.0 * current; // ä¸‹ä¸€ä¸ªæ–¹æ ¼è°·ç²’ç¿»å€
+		total = total + current; // æ›´æ–°æ€»æ•°
 		printf("%4d %13.2e %12.2e %12.2e\n", count, current, total, total / CROP);
 	}
 

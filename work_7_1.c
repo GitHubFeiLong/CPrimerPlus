@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <ctype.h>
 
@@ -7,7 +7,7 @@ int main(void)
 	char ic;
 	int spaceNum = 0, lineNum = 0, otherNum = 0;
 
-	printf("ÇëÊäÈë×Ö·û£¨ÊäÈë#ÍË³ö£©³ÌĞò:\n");
+	printf("è¯·è¾“å…¥å­—ç¬¦ï¼ˆè¾“å…¥#é€€å‡ºï¼‰ç¨‹åº:\n");
 	while ((ic = getchar()) != '#')
 	{
 		if (isspace(ic))
@@ -18,7 +18,7 @@ int main(void)
 			otherNum++;
 	}
 
-	printf("¿Õ¸ñÊı£º%d,»»ĞĞÊı£º%d,ÆäËü×Ö·ûÊı£º%d", spaceNum, lineNum, otherNum);
+	printf("ç©ºæ ¼æ•°ï¼š%d,æ¢è¡Œæ•°ï¼š%d,å…¶å®ƒå­—ç¬¦æ•°ï¼š%d", spaceNum, lineNum, otherNum);
 
 	return 0;
 }

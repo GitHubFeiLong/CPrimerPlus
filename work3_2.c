@@ -1,12 +1,12 @@
-/* work2.c -- ÊäÈëÒ»¸öASCII£¬´òÓ¡ÊäÈëµÄ×Ö·û */
+ï»¿/* work2.c -- è¾“å…¥ä¸€ä¸ªASCIIï¼Œæ‰“å°è¾“å…¥çš„å­—ç¬¦ */
 #include <stdio.h>
 
 int main(void)
 {
 	int num;
-	printf("ÇëÊäÈëÒ»¸öÓĞĞ§µÄASCIIÖµ£º");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæœ‰æ•ˆçš„ASCIIå€¼ï¼š");
 	scanf_s("%d", &num);
-	printf("ÄãÊäÈëµÄ×Ö·ûÊÇ£º%c", (char)num);
+	printf("ä½ è¾“å…¥çš„å­—ç¬¦æ˜¯ï¼š%c", (char)num);
 
 	return 0;
 }

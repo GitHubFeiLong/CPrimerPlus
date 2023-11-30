@@ -1,4 +1,4 @@
-/* strptr.c -- °Ñ×Ö·û´®¿´×÷Ö¸Õë */
+ï»¿/* strptr.c -- æŠŠå­—ç¬¦ä¸²çœ‹ä½œæŒ‡é’ˆ */
 #include <stdio.h>
 
 int main(void)

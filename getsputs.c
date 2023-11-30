@@ -1,4 +1,4 @@
-/* getsputs.c -- Ê¹ÓÃ gets()ºÍputs()*/
+ï»¿/* getsputs.c -- ä½¿ç”¨ gets()å’Œputs()*/
 #include <stdio.h>
 
 #define STLEN 81

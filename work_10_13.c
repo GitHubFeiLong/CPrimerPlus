@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define ROW 3
 #define COL 5
@@ -24,16 +24,16 @@ void save_data(double(*p)[COL], int size)
 {
 	int i;
 
-	printf("ÄãÊäÈëµÄÊý×ÖÈçÏÂ£º\n");
+	printf("ä½ è¾“å…¥çš„æ•°å­—å¦‚ä¸‹ï¼š\n");
 	for (i = 0; i < size; i++)
 	{
-		printf("ÇëÊäÈëµÚ%d×éÊý£¨5¸ödoubleÀàÐÍµÄÊý£©:\n", i + 1);
-		// scanf ½«ËùÐèµÄÊý¾Ý¶ÁÈ¡ºó£¬Èç¹ûÓÐ²»ÐèÒªµÄÊý¾Ý£¬»á·Å»ØÊäÈë»º³åÇøÄÚ¡£
+		printf("è¯·è¾“å…¥ç¬¬%dç»„æ•°ï¼ˆ5ä¸ªdoubleç±»åž‹çš„æ•°ï¼‰:\n", i + 1);
+		// scanf å°†æ‰€éœ€çš„æ•°æ®è¯»å–åŽï¼Œå¦‚æžœæœ‰ä¸éœ€è¦çš„æ•°æ®ï¼Œä¼šæ”¾å›žè¾“å…¥ç¼“å†²åŒºå†…ã€‚
 		scanf("%lf %lf %lf %lf %lf", *(p + i) + COL - 5,
 			*(p + i) + COL - 4, *(p + i) + COL - 3,
 			*(p + i) + COL - 2, *(p + i) + COL - 1);
 		
-		// ËùÒÔÕâÀïÐèÒª½«ÆäÊ£ÓàÊäÈëÈ«²¿¶ªÆú
+		// æ‰€ä»¥è¿™é‡Œéœ€è¦å°†å…¶å‰©ä½™è¾“å…¥å…¨éƒ¨ä¸¢å¼ƒ
 		while (getchar() != '\n')
 			continue;
 	}
@@ -50,7 +50,7 @@ void average_col(double(*p)[COL], int size)
 		{
 			subtotl += *(*(p + i) + j);
 		}
-		printf("µÚ %d ÐÐ ÇóºÍ=%.2lf, Æ½¾ùÊý=%.2lf\n", i + 1, subtotl, subtotl / COL);
+		printf("ç¬¬ %d è¡Œ æ±‚å’Œ=%.2lf, å¹³å‡æ•°=%.2lf\n", i + 1, subtotl, subtotl / COL);
 	}
 }
 
@@ -68,7 +68,7 @@ void average(double(*p)[COL], int size)
 		}
 	}
 
-	printf("ËùÓÐÊý¾ÝÇóºÍ=%.2lf, Æ½¾ùÊý=%.2lf\n", total, total / (COL * size));
+	printf("æ‰€æœ‰æ•°æ®æ±‚å’Œ=%.2lf, å¹³å‡æ•°=%.2lf\n", total, total / (COL * size));
 }
 
 void find_max(double arr[][COL], int size)
@@ -80,7 +80,7 @@ void find_max(double arr[][COL], int size)
 		for (j = 0; j < COL; j++)
 			max = arr[i][j] > max ? arr[i][j] : max;
 
-	printf("×î´óÖµÊÇ£º%.2lf\n", max);
+	printf("æœ€å¤§å€¼æ˜¯ï¼š%.2lf\n", max);
 }
 
 void print_arr(double(*p)[COL], int size)

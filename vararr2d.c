@@ -1,7 +1,7 @@
-// vararr2d.c -- Ê¹ÓÃ±ä³¤Êı×éµÄº¯Êı
+ï»¿// vararr2d.c -- ä½¿ç”¨å˜é•¿æ•°ç»„çš„å‡½æ•°
 #include <stdio.h>
 #define ROWS 3
 #define COLS 4
 
-// VSµÄC±àÒëÆ÷²»Ö§³Ö
+// VSçš„Cç¼–è¯‘å™¨ä¸æ”¯æŒ
 int sum2d(int rows, int cols, int ar[rows][cols]);

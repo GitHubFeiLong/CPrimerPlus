@@ -1,4 +1,4 @@
-/* hotel.c -- ¾Æµê¹ÜÀíº¯Êı */
+ï»¿/* hotel.c -- é…’åº—ç®¡ç†å‡½æ•° */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "hotel.h"

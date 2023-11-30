@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 
 int main(void)
 {
@@ -9,7 +9,7 @@ int main(void)
 	{
 		totalChars++;
 	}
-	printf("¶ÁÈ¡Íê±Ï£º¹²%ld¸ö×Ö·û", totalChars);
+	printf("è¯»å–å®Œæ¯•ï¼šå…±%ldä¸ªå­—ç¬¦", totalChars);
 
 	return 0;
 }

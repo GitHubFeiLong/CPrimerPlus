@@ -1,14 +1,14 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main(void)
 {
 	int i = 0;
 
-	// ´òÓ¡ÍêÈı´Î¡°Hi£¡¡±ºói=4
+	// æ‰“å°å®Œä¸‰æ¬¡â€œHiï¼â€åi=4
 	while (++i < 4)
 		printf("Hi! ");
 	
-	// ´òÓ¡5´Î¡°Bye! ¡±ºói=8
+	// æ‰“å°5æ¬¡â€œBye! â€åi=8
 	do
 		printf("Bye! ");
 	while (i++ < 8);

@@ -1,4 +1,4 @@
-/* fgets1.c -- Ê¹ÓÃ fgets()ºÍfputs()*/
+ï»¿/* fgets1.c -- ä½¿ç”¨ fgets()å’Œfputs()*/
 #include <stdio.h>
 #define STLEN 14
 

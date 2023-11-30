@@ -1,4 +1,4 @@
-/* arrchar.c -- Ö¸ÕëÊý×é£¬×Ö·û´®Êý×é */
+ï»¿/* arrchar.c -- æŒ‡é’ˆæ•°ç»„ï¼Œå­—ç¬¦ä¸²æ•°ç»„ */
 #include <stdio.h>
 #define SLEN 40
 #define LIM 5

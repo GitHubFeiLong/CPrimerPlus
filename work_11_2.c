@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <ctype.h>
 
 void get(char* c, int num);
@@ -17,14 +17,14 @@ int main(void)
 void get(char* c, int num)
 {
 	int i;
-	int size = sizeof(c) / sizeof(c[0]); // Êý×é³¤¶È
+	int size = sizeof(c) / sizeof(c[0]); // æ•°ç»„é•¿åº¦
 
 	for (i = 0; i < size; i++)
 	{
 		if (i < num && isspace(*c++ = getchar()))
 			break;
 	}
-	// ½«¶àÓàµÄ×Ö·ûÈ¡³ö
+	// å°†å¤šä½™çš„å­—ç¬¦å–å‡º
 	while (*c != '\n' && getchar() != '\n')
 		continue;
 }

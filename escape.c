@@ -1,4 +1,4 @@
-/* escape.c -- Ê¹ÓÃ×ªÒåĞòÁĞ */
+ï»¿/* escape.c -- ä½¿ç”¨è½¬ä¹‰åºåˆ— */
 #include <stdio.h>
 
 int main(void)

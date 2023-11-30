@@ -1,4 +1,4 @@
-/* divide.c -- ÑÝÊ¾³ý·¨ */
+ï»¿/* divide.c -- æ¼”ç¤ºé™¤æ³• */
 #include <stdio.h>
 
 int main(void)
@@ -6,7 +6,7 @@ int main(void)
 	printf("integer division: 5/4 is %d \n", 5 / 4);
 	printf("integer division: 6/3 is %d \n", 6 / 3);
 	printf("integer division: 7. / 4. is %1.2f \n", 7. / 4.);
-	printf("mixed division£º7./4 is %1.2f \n", 7. / 4);
+	printf("mixed divisionï¼š7./4 is %1.2f \n", 7. / 4);
 
 	return 0;
 }

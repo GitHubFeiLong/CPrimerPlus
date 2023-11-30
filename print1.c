@@ -1,4 +1,4 @@
-/* print1.c - ÑİÊ¾printf()µÄÒ»Ğ©ÌØĞÔ */
+ï»¿/* print1.c - æ¼”ç¤ºprintf()çš„ä¸€äº›ç‰¹æ€§ */
 #include <stdio.h>
 
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
 	printf("Doing it right:");
 	printf("%d minus %d is %d\n", ten, 2, ten - two);
 	printf("Doing it wrong:");
-	printf("%d minus %d is %d\n", ten); // Â©µôÁ½¸ö²ÎÊı,ºóÃæÁ½¸ö%d´òÓ¡Ëæ»úÖµ
+	printf("%d minus %d is %d\n", ten); // æ¼æ‰ä¸¤ä¸ªå‚æ•°,åé¢ä¸¤ä¸ª%dæ‰“å°éšæœºå€¼
 
 	return 0;
 }

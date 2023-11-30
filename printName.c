@@ -1,4 +1,4 @@
-/* printName.c -- Êä³öĞÕÃû */
+ï»¿/* printName.c -- è¾“å‡ºå§“å */
 #include <stdio.h>
 
 int main(void)

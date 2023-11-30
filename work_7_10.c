@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define RATE1 0.15
 #define RATE2 0.28
@@ -20,15 +20,15 @@ int main(void)
 	do
 	{
 		printf("\n******************************\n");
-		printf("1£©µ¥Éí\t\t\t\t2) »§Ö÷\n");
-		printf("3£©ÒÑ»é£¬¹²ÓĞ\t\t\t4) ÒÑ»é£¬ÀëÒì\n");
-		printf("5£©ÍË³ö\n");
+		printf("1ï¼‰å•èº«\t\t\t\t2) æˆ·ä¸»\n");
+		printf("3ï¼‰å·²å©šï¼Œå…±æœ‰\t\t\t4) å·²å©šï¼Œç¦»å¼‚\n");
+		printf("5ï¼‰é€€å‡º\n");
 		printf("******************************\n\n");
-		printf("ÇëÊäÈëÓÃ»§ÀàĞÍ£º");
+		printf("è¯·è¾“å…¥ç”¨æˆ·ç±»å‹ï¼š");
 		scanf("%d", &type);
 		if (type == 5)
 			continue;
-		printf("ÇëÊäÈëÄãµÄĞ½×Ê£º");
+		printf("è¯·è¾“å…¥ä½ çš„è–ªèµ„ï¼š");
 		scanf("%f", &salary);
 		switch (type)
 		{
@@ -73,7 +73,7 @@ int main(void)
 			}
 			break;
 		}
-		printf("Ë°½ğ£º%.2f\nÇë¼ÌĞøÊäÈë...\n", sj);
+		printf("ç¨é‡‘ï¼š%.2f\nè¯·ç»§ç»­è¾“å…¥...\n", sj);
 	} while (type != 5);
 	printf("Bye!\n");
 

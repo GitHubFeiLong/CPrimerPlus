@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <math.h>
 #include <stdbool.h>
@@ -7,8 +7,8 @@ int main(void)
 {
 	const double ANSWER = 3.14159;
 	double response;
-	// stdbool.h ½«bool×÷Îª_BoolµÄ±ğÃû
-	// trueºÍfalse·Ö±ğ¶¨ÒåÎª1ºÍ0µÄ·ûºÅ³£Á¿
+	// stdbool.h å°†boolä½œä¸º_Boolçš„åˆ«å
+	// trueå’Œfalseåˆ†åˆ«å®šä¹‰ä¸º1å’Œ0çš„ç¬¦å·å¸¸é‡
 	bool flag = true; 
 	
 	printf("What is the value of pi?\n");

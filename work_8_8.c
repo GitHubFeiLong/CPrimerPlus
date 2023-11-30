@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <ctype.h>
 
@@ -14,12 +14,12 @@ int main(void)
 
 	do
 	{
-		printf("ÇëÊäÈëÔËËã·û£¬+¡¢-¡¢*¡¢/ (°´ÏÂ»Ø³µÈ·ÈÏÊäÈë, °´ÏÂ#ÍË³ö)£º\n");
+		printf("è¯·è¾“å…¥è¿ç®—ç¬¦ï¼Œ+ã€-ã€*ã€/ (æŒ‰ä¸‹å›è½¦ç¡®è®¤è¾“å…¥, æŒ‰ä¸‹#é€€å‡º)ï¼š\n");
 		ic = get_first();
 		
 		if (ic == '#')
 			break;
-		printf("ÇëÊäÈëÁ½¸öÊıÒÔ¶ººÅ·Ö¸ô£¬ÀıÈç£º5.4,6.32:\n");
+		printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•°ä»¥é€—å·åˆ†éš”ï¼Œä¾‹å¦‚ï¼š5.4,6.32:\n");
 		scanf("%f,%f", &num1, &num2);
 		if (ic == '+')
 		{
@@ -37,7 +37,7 @@ int main(void)
 		{
 			while (num2 == 0.0F)
 			{
-				printf("ÇëÊäÈëÕıÈ·µÄ³ıÊı£º");
+				printf("è¯·è¾“å…¥æ­£ç¡®çš„é™¤æ•°ï¼š");
 				scanf("%f", &num2);
 			}
 

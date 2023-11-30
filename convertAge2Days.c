@@ -1,4 +1,4 @@
-/* convertAge2Days.c -- ½«ÄêÁä×ª»»³ÉÌìÊı£¬²»¿¼ÂÇÈòÄê */
+ï»¿/* convertAge2Days.c -- å°†å¹´é¾„è½¬æ¢æˆå¤©æ•°ï¼Œä¸è€ƒè™‘é—°å¹´ */
 #include <stdio.h>
 
 int main(void)

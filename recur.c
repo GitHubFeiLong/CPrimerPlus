@@ -1,4 +1,4 @@
-/* recur.c -- µÝ¹éÑÝÊ¾ */
+ï»¿/* recur.c -- é€’å½’æ¼”ç¤º */
 #include <stdio.h>
 
 void up_and_down(int);

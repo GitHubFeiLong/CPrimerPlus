@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #define SIZE 4
 
 void sum_to_arr(int* target, int* source1, int* source2, int size);

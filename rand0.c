@@ -1,6 +1,6 @@
-/* rand0.c Éú³ÉËæ»úÊı*/
+ï»¿/* rand0.c ç”Ÿæˆéšæœºæ•°*/
 #include <stdio.h>
-static unsigned long int next = 1; // ÖÖ×Ó
+static unsigned long int next = 1; // ç§å­
 
 unsigned int rand0(void)
 {

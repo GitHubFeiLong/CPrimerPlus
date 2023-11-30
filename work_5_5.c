@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 
 int main(void)
@@ -7,7 +7,7 @@ int main(void)
 	int cd = 0;
 	int total = 0;
 
-	printf("ÊäÈëÌìÊý£º");
+	printf("è¾“å…¥å¤©æ•°ï¼š");
 	scanf("%d", &days);
 	while (cd++ < days)
 	{

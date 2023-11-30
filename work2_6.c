@@ -1,9 +1,9 @@
-#include <stdio.h>
+Ôªø#include <stdio.h>
 int main(void)
 {
 	int toes;
-	int doubleToes; // 2±∂toes
-	int squareToes; // ∆Ω∑Ωtoes
+	int doubleToes; // 2ÂÄçtoes
+	int squareToes; // Âπ≥Êñπtoes
 	toes = 10;
 	doubleToes = toes + toes;
 	squareToes = toes * toes;

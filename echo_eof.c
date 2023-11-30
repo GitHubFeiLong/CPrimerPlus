@@ -1,12 +1,12 @@
-/* echo_eof.c -- ÖØ¸´ÊäÈë£¬Ö±µ½ÎÄ¼ş½áÎ² */
+ï»¿/* echo_eof.c -- é‡å¤è¾“å…¥ï¼Œç›´åˆ°æ–‡ä»¶ç»“å°¾ */
 #include <stdio.h>
 
 int main(void)
 {
 	int ch;
 
-	// UNIX/Linux Ê¹ÓÃCtrl+D´«ÊäÎÄ¼ş½áÎ²ĞÅºÅ
-	// Windows ÕıÈ·Ê¹ÓÃÊÇ Enter,Ctrl+Z,Enter
+	// UNIX/Linux ä½¿ç”¨Ctrl+Dä¼ è¾“æ–‡ä»¶ç»“å°¾ä¿¡å·
+	// Windows æ­£ç¡®ä½¿ç”¨æ˜¯ Enter,Ctrl+Z,Enter
 	while ((ch = getchar()) != EOF)
 	{
 		putchar(ch);

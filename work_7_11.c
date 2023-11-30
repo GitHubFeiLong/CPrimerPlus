@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <ctype.h>
 #define FOOD1 2.05
@@ -36,51 +36,51 @@ int main(void)
 		switch (type)
 		{
 		case 'a':
-			printf("ÇëÊäÈëÑóöê($%.2f/°õ)µÄ°õÊı:", FOOD1);
+			printf("è¯·è¾“å…¥æ´‹é²«($%.2f/ç£…)çš„ç£…æ•°:", FOOD1);
 			scanf("%f", &f1);
 			f1Total += f1;
 			break;
 		case 'b':
-			printf("ÇëÊäÈëÌğ²Ë($%.2f/°õ)µÄ°õÊı:", FOOD2);
+			printf("è¯·è¾“å…¥ç”œèœ($%.2f/ç£…)çš„ç£…æ•°:", FOOD2);
 			scanf("%f", &f2);
 			f2Total += f2;
 			break;
 		case 'c':
-			printf("ÇëÊäÈëºúÂÜ²·($%.2f/°õ)µÄ°õÊı:", FOOD3);
+			printf("è¯·è¾“å…¥èƒ¡èåœ($%.2f/ç£…)çš„ç£…æ•°:", FOOD3);
 			scanf("%f", &f3);
 			f3Total += f3;
 			break;
-		default: // Ê¹ÓÃscanfÊäÈë°õÊıÊ±µÄ»Ø³µ×Ö·û£¬Ò²»á½øÈëÑ­»·
+		default: // ä½¿ç”¨scanfè¾“å…¥ç£…æ•°æ—¶çš„å›è½¦å­—ç¬¦ï¼Œä¹Ÿä¼šè¿›å…¥å¾ªç¯
 			continue; // 1
 		}
 		printMenu();
 	}
 	if (flag)
 	{
-		printf("ÄúÑ¡¹ºµÄÉÌÆ·ÈçÏÂ£º\n");
+		printf("æ‚¨é€‰è´­çš„å•†å“å¦‚ä¸‹ï¼š\n");
 		if (f1Total > 0)
 		{
 			allAmount += f1Total * FOOD1;
-			printf("Ñóöê($%.2f/°õ)%.2f°õ\n", FOOD1, f1Total);
+			printf("æ´‹é²«($%.2f/ç£…)%.2fç£…\n", FOOD1, f1Total);
 		}
 		if (f2Total > 0)
 		{
 			allAmount += f2Total * FOOD2;
-			printf("Ìğ²Ë($%.2f/°õ)%.2f°õ\n", FOOD2, f2Total);
+			printf("ç”œèœ($%.2f/ç£…)%.2fç£…\n", FOOD2, f2Total);
 		}
 		if (f3Total > 0)
 		{
 			allAmount += f3Total * FOOD3;
-			printf("ºúÂÜ²·($%.2f/°õ)%.2f°õ\n", FOOD3, f3Total);
+			printf("èƒ¡èåœ($%.2f/ç£…)%.2fç£…\n", FOOD3, f3Total);
 		}
 
-		// ×Ü°õÊı
+		// æ€»ç£…æ•°
 		allTotal = f1Total + f2Total + f3Total;
 		rawAllAmount = allAmount;
-		// ³¬¹ı100ÃÀÔª´ò5%µÄÕÛ¿Û
+		// è¶…è¿‡100ç¾å…ƒæ‰“5%çš„æŠ˜æ‰£
 		if (rawAllAmount >= 100)
 		{
-			// ¼ÆËãÕÛ¿Û
+			// è®¡ç®—æŠ˜æ‰£
 			zk = rawAllAmount - (1 - DISCOUNT) * allAmount;
 			allAmount -= zk;
 		}
@@ -102,7 +102,7 @@ int main(void)
 			allAmount += FREIGHT2 + temp;
 		}
 
-		printf("»õÎï×Ü¼Û£º%f; ÕÛ¿Û£º%f£¬ÔË·ÑºÍ°ü×°·Ñ£º%f£¬total:%f", rawAllAmount, zk, allFright, allAmount);
+		printf("è´§ç‰©æ€»ä»·ï¼š%f; æŠ˜æ‰£ï¼š%fï¼Œè¿è´¹å’ŒåŒ…è£…è´¹ï¼š%fï¼Œtotal:%f", rawAllAmount, zk, allFright, allAmount);
 	}
 
 
@@ -112,9 +112,9 @@ int main(void)
 void printMenu(void)
 {
 	printf("*****************************\n");
-	printf("a) Ñóöê($%.2f/°õ)\t\t", FOOD1);
-	printf("b) Ìğ²Ë($%.2f/°õ)\n", FOOD2);
-	printf("c) ºúÂÜ²·($%.2f/°õ)\t\t", FOOD3);
-	printf("q) ÍË³ö\n");
+	printf("a) æ´‹é²«($%.2f/ç£…)\t\t", FOOD1);
+	printf("b) ç”œèœ($%.2f/ç£…)\n", FOOD2);
+	printf("c) èƒ¡èåœ($%.2f/ç£…)\t\t", FOOD3);
+	printf("q) é€€å‡º\n");
 	printf("*****************************\n");
 }

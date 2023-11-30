@@ -1,4 +1,4 @@
-/* fgets2.c -- Ê¹ÓÃfgets()ºÍfputs()*/
+ï»¿/* fgets2.c -- ä½¿ç”¨fgets()å’Œfputs()*/
 #include <stdio.h>
 #define STLEN 10
 

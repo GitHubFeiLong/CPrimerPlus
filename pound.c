@@ -1,6 +1,6 @@
-/* pound.c -- ¶¨ÒåÒ»¸ö´øÒ»¸ö²ÎÊıµÄº¯Êı */
+ï»¿/* pound.c -- å®šä¹‰ä¸€ä¸ªå¸¦ä¸€ä¸ªå‚æ•°çš„å‡½æ•° */
 #include <stdio.h>
-void pound(int n);  // ANSIº¯ÊıÔ­ĞÍÉùÃ÷
+void pound(int n);  // ANSIå‡½æ•°åŸå‹å£°æ˜
 int main(void)
 {
 	int times = 5;
@@ -14,7 +14,7 @@ int main(void)
 	return 0;
 }
 
-void pound(int n) // ANSI·ç¸ñº¯ÊıÍ·
+void pound(int n) // ANSIé£æ ¼å‡½æ•°å¤´
 {
 	while (n-- > 0)
 		printf("#");

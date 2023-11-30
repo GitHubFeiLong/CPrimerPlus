@@ -1,4 +1,4 @@
-/* guess.c -- Ò»¸öÍÏí³ÇÒ´íÎóµÄ²ÂÊı×Ö³ÌĞò */
+ï»¿/* guess.c -- ä¸€ä¸ªæ‹–æ²“ä¸”é”™è¯¯çš„çŒœæ•°å­—ç¨‹åº */
 #include <stdio.h>
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 			printf("Well, then, is it %d?\n", ++guess);
 		else
 			printf("Sorry, I understand only y or n.\n");
-		while (getchar() != '\n') // ¶ÁÈ¡Ê£ÓàÆäËüÊäÈë no,no way »Ø³µ¡£
+		while (getchar() != '\n') // è¯»å–å‰©ä½™å…¶å®ƒè¾“å…¥ no,no way å›è½¦ã€‚
 			continue;
 	}
 	printf("I knuw I could do it\n");

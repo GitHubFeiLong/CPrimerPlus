@@ -1,4 +1,4 @@
-/* toobig.c -- ³¬³öÏµÍ³ÔÊĞíµÄ×î´óintÖµ*/
+ï»¿/* toobig.c -- è¶…å‡ºç³»ç»Ÿå…è®¸çš„æœ€å¤§intå€¼*/
 #include <stdio.h>
 
 int main(void)

@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 double reconcile_average(double, double);
 
@@ -8,7 +8,7 @@ int main(void)
 
 	d1 = 1.5;
 	d2 = 2.5;
-	printf("%lfºÍ%lfµÄµ÷ºÍÆ½¾ùÊıÊÇ%lf", d1, d2, reconcile_average(d1, d2));
+	printf("%lfå’Œ%lfçš„è°ƒå’Œå¹³å‡æ•°æ˜¯%lf", d1, d2, reconcile_average(d1, d2));
 	return 0;
 }
 

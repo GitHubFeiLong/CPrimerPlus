@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define HOUR 40
 #define D1 1.5
@@ -15,9 +15,9 @@ void handler(float f1, float f2);
 
 int main(void)
 {
-	float weekWorkHours; // Ò»ÖÜ¹¤×÷Ğ¡Ê±Êı
+	float weekWorkHours; // ä¸€å‘¨å·¥ä½œå°æ—¶æ•°
 	float hr;
-	int command; // Ö¸Áî
+	int command; // æŒ‡ä»¤
 	int status;
 
 	do {
@@ -32,7 +32,7 @@ int main(void)
 		status = scanf("%d", &command);
 		if (status != 1)
 		{
-			printf("ÇëÖØĞÂÊäÈëÕıÈ·µÄÖµ\n");
+			printf("è¯·é‡æ–°è¾“å…¥æ­£ç¡®çš„å€¼\n");
 			continue;
 		}
 		switch (command)
@@ -52,7 +52,7 @@ int main(void)
 		default:
 			goto ext;
 		}
-		printf("ÇëÊäÈëÄãÒ»¸öÖÜ¹¤×÷µÄĞ¡Ê±Êı:\n");
+		printf("è¯·è¾“å…¥ä½ ä¸€ä¸ªå‘¨å·¥ä½œçš„å°æ—¶æ•°:\n");
 		scanf("%f", &weekWorkHours);
 
 		handler(hr, weekWorkHours);
@@ -66,24 +66,24 @@ int main(void)
 void handler(float basic, float weekWorkHours)
 {
 	
-	float salary; // ¹¤×Ê×Ü¶î
-	float sj; // Ë°½ğ
+	float salary; // å·¥èµ„æ€»é¢
+	float sj; // ç¨é‡‘
 
-	// Õı³£¹¤×÷Ê±¼äÃ»ÓĞ¼Ó°à·Ñ
+	// æ­£å¸¸å·¥ä½œæ—¶é—´æ²¡æœ‰åŠ ç­è´¹
 	if (weekWorkHours <= HOUR)
 	{
 		salary = weekWorkHours * basic;
 	}
 	else
 	{
-		// Ç°40Ğ¡Ê±Ğ½×Ê + ¼Ó°à¹¤×Ê
+		// å‰40å°æ—¶è–ªèµ„ + åŠ ç­å·¥èµ„
 		salary = (basic * HOUR) + (weekWorkHours - HOUR) * D1 * basic;
 	}
 
-	// ¼ÆËãË°ÂÊ
+	// è®¡ç®—ç¨ç‡
 	if (salary <= FRONT1)
 	{
-		// Ë°ÂÊ
+		// ç¨ç‡
 		sj = SL1 * salary;
 	}
 	else if (salary <= FRONT3)
@@ -94,7 +94,7 @@ void handler(float basic, float weekWorkHours)
 		sj = BASE2 + (salary - FRONT3) * SL3;
 	}
 
-	printf("ÖÜ¹¤×÷ %.2f Ğ¡Ê±£º\n", weekWorkHours);
-	printf("¹¤×Ê×Ü½ğ¶î\t\tË°½ğ\t\t¾»ÊÕÈë\n");
+	printf("å‘¨å·¥ä½œ %.2f å°æ—¶ï¼š\n", weekWorkHours);
+	printf("å·¥èµ„æ€»é‡‘é¢\t\tç¨é‡‘\t\tå‡€æ”¶å…¥\n");
 	printf("%.2f\t\t\t%.2f\t\t%.2f\n\n", salary, sj, salary - sj);
 }

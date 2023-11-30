@@ -1,4 +1,4 @@
-/* binary.c -- ÒÔ¶ş½øÖÆĞÎÊ½´òÓ¡ÕûÊı */
+ï»¿/* binary.c -- ä»¥äºŒè¿›åˆ¶å½¢å¼æ‰“å°æ•´æ•° */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 void to_binary(unsigned long);

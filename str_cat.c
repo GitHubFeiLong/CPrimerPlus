@@ -1,4 +1,4 @@
-/* str_cat.c -- Æ´½ÓÁ½¸ö×Ö·û´®*/
+ï»¿/* str_cat.c -- æ‹¼æŽ¥ä¸¤ä¸ªå­—ç¬¦ä¸²*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>

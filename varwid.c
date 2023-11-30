@@ -1,4 +1,4 @@
-/* varwid.c -- Ê¹ÓÃ±ä¿íÊä³ö×Ö¶Î */
+ï»¿/* varwid.c -- ä½¿ç”¨å˜å®½è¾“å‡ºå­—æ®µ */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 

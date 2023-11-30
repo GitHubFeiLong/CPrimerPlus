@@ -1,4 +1,4 @@
-/* showchar1.c -- ÓĞ½Ï´ó I/O ÎÊÌâµÄ³ÌĞò */
+ï»¿/* showchar1.c -- æœ‰è¾ƒå¤§ I/O é—®é¢˜çš„ç¨‹åº */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
@@ -14,7 +14,7 @@ int main(void)
 		if (scanf("%d %d", &rows, &cols) != 2)
 			break;
 		display(ch, rows, cols);
-		while (getchar() != '\n') // Ìø¹ı»Ø³µ
+		while (getchar() != '\n') // è·³è¿‡å›è½¦
 			continue;
 		printf("Enter another character and two integers;\n");
 		printf("Enter a newline to quit.\n");

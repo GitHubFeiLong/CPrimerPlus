@@ -1,4 +1,4 @@
-/*rules.c -- сеох╪╤╡Бйт*/
+О╩©/*rules.c -- Д╪≤Е┘┬Г╨╖Ф╣▀Х╞∙*/
 #include <stdio.h>
 
 int main(void)

@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 void lifang(double d);
@@ -7,7 +7,7 @@ int main(void)
 {
 	double input;
 
-	printf("ÊäÈë doubleÀàÐÍµÄÖµ£º");
+	printf("è¾“å…¥ doubleç±»åž‹çš„å€¼ï¼š");
 	scanf("%lf", &input);
 	lifang(input);
 	return 0;
@@ -15,5 +15,5 @@ int main(void)
 
 void lifang(double d)
 {
-	printf("%lf µÄÁ¢·½ = %f", d, d * d * d);
+	printf("%lf çš„ç«‹æ–¹ = %f", d, d * d * d);
 }

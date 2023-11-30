@@ -1,4 +1,4 @@
-// wordcnt.c -- Í³¼Æ×Ö·ûÊı¡¢µ¥´ÊÊı¡¢ĞĞÊı
+ï»¿// wordcnt.c -- ç»Ÿè®¡å­—ç¬¦æ•°ã€å•è¯æ•°ã€è¡Œæ•°
 #include <stdio.h>
 #include <ctype.h>
 #include <stdbool.h>
@@ -6,16 +6,16 @@
 
 int main(void)
 {
-	char c; // ¶ÁÈë×Ö·û
-	char prev; // ¶ÁÈëµÄÇ°Ò»¸ö×Ö·û
-	long n_chars = 0L; // ×Ö·ûÊı
-	int n_lines = 0; // ĞĞÊı
-	int n_words = 0; // µ¥´ÊÊı
-	int p_lines = 0; // ²»ÍêÕûµÄĞĞÊı
-	bool inword = false; // Èç¹ûcÔÚµ¥´ÊÖĞ£¬inwordµÈÓÚtrue
+	char c; // è¯»å…¥å­—ç¬¦
+	char prev; // è¯»å…¥çš„å‰ä¸€ä¸ªå­—ç¬¦
+	long n_chars = 0L; // å­—ç¬¦æ•°
+	int n_lines = 0; // è¡Œæ•°
+	int n_words = 0; // å•è¯æ•°
+	int p_lines = 0; // ä¸å®Œæ•´çš„è¡Œæ•°
+	bool inword = false; // å¦‚æœcåœ¨å•è¯ä¸­ï¼Œinwordç­‰äºtrue
 
 	printf("Enter text to be analyzed(| to terminate):\n");
-	prev = '\n'; // ÓÃÓÚÊ¶±ğÍêÕûµÄĞĞ
+	prev = '\n'; // ç”¨äºè¯†åˆ«å®Œæ•´çš„è¡Œ
 	while ((c = getchar()) != STOP)
 	{
 		n_chars++;

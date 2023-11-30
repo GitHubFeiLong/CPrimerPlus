@@ -1,6 +1,6 @@
-/* two_func.c -- Ò»¸öÎÄ¼şÖĞ°üº¬Á½¸öº¯Êı*/
+ï»¿/* two_func.c -- ä¸€ä¸ªæ–‡ä»¶ä¸­åŒ…å«ä¸¤ä¸ªå‡½æ•°*/
 #include <stdio.h>
-void butler(void); /* ANSI/ISO Cº¯ÊıÔ­ĞÍ */
+void butler(void); /* ANSI/ISO Cå‡½æ•°åŸå‹ */
 int main(void)
 {
 	printf("I will summon the butler function.\n");
@@ -8,7 +8,7 @@ int main(void)
 	printf("Yes. Bring me some tea and writeable DVDs.\n");
 	return 0;
 }
-void butler(void) /* º¯Êı¶¨Òå¿ªÊ¼ */
+void butler(void) /* å‡½æ•°å®šä¹‰å¼€å§‹ */
 {
 	printf("You rang, sir?\n");
 }

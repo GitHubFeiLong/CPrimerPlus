@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
@@ -6,7 +6,7 @@ int main(void)
 	float height;
 	char name[40];
 
-	printf("ÇëÊäÈëÉí¸ß£¨µ¥Î»£ºÓ¢´ç£©ºÍĞÕÃû£¬ÒÔ¡°,¡±¸ô¿ª£º\n");
+	printf("è¯·è¾“å…¥èº«é«˜ï¼ˆå•ä½ï¼šè‹±å¯¸ï¼‰å’Œå§“åï¼Œä»¥â€œ,â€éš”å¼€ï¼š\n");
 	scanf("%f,%s", &height, name);
 	printf("%s, you are %.3f fee tall", name, height);
 	return 0;

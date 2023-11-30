@@ -1,7 +1,7 @@
-// defines.c -- Ê¹ÓÃlimit.hºÍfloat.hÍ·ÎÄ¼şÖĞ¶¨ÒåµÄÃ÷Ê¾³£Á¿
+ï»¿// defines.c -- ä½¿ç”¨limit.hå’Œfloat.hå¤´æ–‡ä»¶ä¸­å®šä¹‰çš„æ˜ç¤ºå¸¸é‡
 #include <stdio.h>
-#include <limits.h>	// ÕûĞÍÏŞÖÆ
-#include <float.h>	// ¸¡µãĞÍÏŞÖÆ
+#include <limits.h>	// æ•´å‹é™åˆ¶
+#include <float.h>	// æµ®ç‚¹å‹é™åˆ¶
 
 int main(void)
 {

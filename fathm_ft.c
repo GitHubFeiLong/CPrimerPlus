@@ -1,4 +1,4 @@
-// fathm_ft.c -- ��2ӢѰת��ΪӢ��
+﻿// fathm_ft.c -- 把2英寻转换为英尺
 #include<stdio.h>
 
 int main(void)

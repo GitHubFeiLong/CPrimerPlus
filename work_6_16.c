@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #define AMOUNT 100
 #define DA_LX 0.1
 #define DE_LX 0.05

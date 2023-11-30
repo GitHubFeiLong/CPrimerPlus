@@ -1,4 +1,4 @@
-/* convert.c -- ×Ô¶¯ÀàĞÍ×ª»»*/
+ï»¿/* convert.c -- è‡ªåŠ¨ç±»å‹è½¬æ¢*/
 #include <stdio.h>
 
 int main(void)

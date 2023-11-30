@@ -1,4 +1,4 @@
-// flc.c -- ÓĞÈ¤µÄ³£Á¿
+ï»¿// flc.c -- æœ‰è¶£çš„å¸¸é‡
 #include <stdio.h>
 #define COLS 4
 int sum2d(const int ar[][COLS], int rows);
@@ -10,8 +10,8 @@ int main(void)
 	int* pt1;
 	int(*pt2)[COLS];
 
-	// ¸´ºÏ×ÖÃæÁ¿
-	// int [2] ÊÇ·ûºÏ×ÖÃæÁ¿µÄÀàĞÍÃû
+	// å¤åˆå­—é¢é‡
+	// int [2] æ˜¯ç¬¦åˆå­—é¢é‡çš„ç±»å‹å
 	pt1 = (int[2]){ 10, 20 };
 	pt2 = (int[2][COLS]){ {1,2,3,-9}, {4,5,6,-8} };
 

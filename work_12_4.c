@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 static int total;
 unsigned int fun();
 

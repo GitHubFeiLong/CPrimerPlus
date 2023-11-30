@@ -1,6 +1,6 @@
-/* work5.c ´òÓ¡Êä³ö */
+ï»¿/* work5.c æ‰“å°è¾“å‡º */
 #include <stdio.h>
-void br(void); // ANSI/ISO Cº¯ÊýÔ­ÐÍ£¨º¯ÊýÉùÃ÷£©
+void br(void); // ANSI/ISO Cå‡½æ•°åŽŸåž‹ï¼ˆå‡½æ•°å£°æ˜Žï¼‰
 void ic(void); 
 
 int main(void)

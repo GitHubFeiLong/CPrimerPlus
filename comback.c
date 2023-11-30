@@ -1,4 +1,4 @@
-/* comback.c -- strcmp()µÄ·µ»ØÖµ*/
+ï»¿/* comback.c -- strcmp()çš„è¿”å›žå€¼*/
 #include <stdio.h>
 #include <string.h>
 

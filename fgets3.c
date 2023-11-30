@@ -1,4 +1,4 @@
-/* fgets3.c -- Ê¹ÓÃ fgets()*/
+ï»¿/* fgets3.c -- ä½¿ç”¨ fgets()*/
 #include <stdio.h>
 #define STLEN 10
 
@@ -13,9 +13,9 @@ int main(void)
 		i = 0;
 		while (words[i] != '\n' && words[i] != '\0')
 			i++;
-		if (words[i] == '\n') // ½«»»ĞĞ»»³É×Ö·û´®½áÎ²
+		if (words[i] == '\n') // å°†æ¢è¡Œæ¢æˆå­—ç¬¦ä¸²ç»“å°¾
 			words[i] = '\0';
-		else // ½«ºóĞø×Ö·ûÈ«²¿ÉáÆú¡£
+		else // å°†åç»­å­—ç¬¦å…¨éƒ¨èˆå¼ƒã€‚
 			while (getchar() != '\n')
 				continue;
 		puts(words);

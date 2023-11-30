@@ -1,18 +1,18 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
 {
 	int min, max, i;
 
-	printf("ÇëÊäÈëmin£º");
+	printf("è¯·è¾“å…¥minï¼š");
 	scanf("%d", &min);
-	printf("ÇëÊäÈëmax£º");
+	printf("è¯·è¾“å…¥maxï¼š");
 	scanf("%d", &max);
 
 	for (i = min; i <= max; i++)
 	{
-		printf("ÕûÊý=%d,Æ½·½=%d,Á¢·½=%d\n", i, i * i, i * i * i);
+		printf("æ•´æ•°=%d,å¹³æ–¹=%d,ç«‹æ–¹=%d\n", i, i * i, i * i * i);
 	}
 
 	return 0;

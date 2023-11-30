@@ -1,4 +1,4 @@
-/* copy3.c -- ʹ��strncpy() */
+﻿/* copy3.c -- 使用strncpy() */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>

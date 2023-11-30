@@ -1,21 +1,21 @@
-// electric.c -- ¼ÆËãµç·Ñ
+ï»¿// electric.c -- è®¡ç®—ç”µè´¹
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#define RATE1 0.13230 // Ê×´ÎÊ¹ÓÃ 360 kwh µÄ·ÑÂÊ
-#define RATE2 0.15040 // ½Ó×ÅÔÙÊ¹ÓÃ 108 kwh µÄ·ÑÂÊ
-#define RATE3 0.30025 // ½Ó×ÅÔÙÊ¹ÓÃ 252 kwh µÄ·ÑÂÊ
-#define RATE4 0.34025 // Ê¹ÓÃ³¬¹ı 720 kwh µÄ·ÑÂÊ
-#define BREAK1 360. // ·ÑÂÊµÄµÚÒ»¸ö·Ö½çµã
-#define BREAK2 468. // ·ÑÂÊµÄµÚ2¸ö·Ö½çµã
-#define BREAK3 720. // ·ÑÂÊµÄµÚ3¸ö·Ö½çµã
-#define BASE1 (RATE1 * BREAK1) // Ê¹ÓÃ360kwhµÄ·ÑÓÃ
-#define BASE2 (BASE1 + (RATE2 * (BREAK2 - BREAK1))) // Ê¹ÓÃ468kwhµÄ·ÑÓÃ
-#define BASE3 (BASE2 + (RATE3 * (BREAK3 - BREAK2))) // Ê¹ÓÃ720kwhµÄ·ÑÓÃ
+#define RATE1 0.13230 // é¦–æ¬¡ä½¿ç”¨ 360 kwh çš„è´¹ç‡
+#define RATE2 0.15040 // æ¥ç€å†ä½¿ç”¨ 108 kwh çš„è´¹ç‡
+#define RATE3 0.30025 // æ¥ç€å†ä½¿ç”¨ 252 kwh çš„è´¹ç‡
+#define RATE4 0.34025 // ä½¿ç”¨è¶…è¿‡ 720 kwh çš„è´¹ç‡
+#define BREAK1 360. // è´¹ç‡çš„ç¬¬ä¸€ä¸ªåˆ†ç•Œç‚¹
+#define BREAK2 468. // è´¹ç‡çš„ç¬¬2ä¸ªåˆ†ç•Œç‚¹
+#define BREAK3 720. // è´¹ç‡çš„ç¬¬3ä¸ªåˆ†ç•Œç‚¹
+#define BASE1 (RATE1 * BREAK1) // ä½¿ç”¨360kwhçš„è´¹ç”¨
+#define BASE2 (BASE1 + (RATE2 * (BREAK2 - BREAK1))) // ä½¿ç”¨468kwhçš„è´¹ç”¨
+#define BASE3 (BASE2 + (RATE3 * (BREAK3 - BREAK2))) // ä½¿ç”¨720kwhçš„è´¹ç”¨
 
 int main(void)
 {
-	double kwh; // Ê¹ÓÃµÄkwh
-	double bill; // µç·Ñ
+	double kwh; // ä½¿ç”¨çš„kwh
+	double bill; // ç”µè´¹
 
 	printf("Please enter th kwh used.\n");
 	scanf("%lf", &kwh);

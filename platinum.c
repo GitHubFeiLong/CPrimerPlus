@@ -1,4 +1,4 @@
-/* platinum.c -- your weight in platinum */
+﻿/* platinum.c -- your weight in platinum */
 #include <stdio.h>
 
 int main(void)

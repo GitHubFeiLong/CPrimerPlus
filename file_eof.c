@@ -1,27 +1,27 @@
-// file_eof.c -- ´ò¿ªÒ»¸öÎÄ¼ş²¢ÏÔÊ¾¸ÃÎÄ¼ş
+ï»¿// file_eof.c -- æ‰“å¼€ä¸€ä¸ªæ–‡ä»¶å¹¶æ˜¾ç¤ºè¯¥æ–‡ä»¶
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <stdlib.h> // ÎªÁËÊ¹ÓÃexit()
+#include <stdlib.h> // ä¸ºäº†ä½¿ç”¨exit()
 
 int main()
 {
 	int ch;
 	FILE* fp;
-	char fname[50]; // ´æ´¢ÎÄ¼şÃû
+	char fname[50]; // å­˜å‚¨æ–‡ä»¶å
 
 	printf("Enter the name of the file:");
 	scanf("%s", fname);
-	fp = fopen(fname, "r"); // ´ò¿ª´ı¶ÁÈ¡ÎÄ¼ş
-	if (fp == NULL) // Èç¹ûÊ§°Ü
+	fp = fopen(fname, "r"); // æ‰“å¼€å¾…è¯»å–æ–‡ä»¶
+	if (fp == NULL) // å¦‚æœå¤±è´¥
 	{
 		printf("Failed to open file. Bye\n");
-		exit(1); // ÍË³ö³ÌĞò
+		exit(1); // é€€å‡ºç¨‹åº
 	}
 
-	// getc(fp)´Ó´ò¿ªµÄÎÄ¼şÖĞ»ñÈ¡Ò»¸ö×Ö·û
+	// getc(fp)ä»æ‰“å¼€çš„æ–‡ä»¶ä¸­è·å–ä¸€ä¸ªå­—ç¬¦
 	while ((ch = getc(fp)) != EOF)
 		putchar(ch);
-	fclose(fp); // ¹Ø±ÕÎÄ¼ş
+	fclose(fp); // å…³é—­æ–‡ä»¶
 
 	return 0;
 }

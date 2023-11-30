@@ -1,18 +1,18 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define SIZE 60
 
 int main(void)
 {
 	int totalMin;
-	printf("ÊäÈë·ÖÖÓÊ±¼ä(ÊäÈëÖµĞ¡ÓÚ»òµÈÓÚ0Ê±ÍË³ö³ÌĞò)£º\n");
+	printf("è¾“å…¥åˆ†é’Ÿæ—¶é—´(è¾“å…¥å€¼å°äºæˆ–ç­‰äº0æ—¶é€€å‡ºç¨‹åº)ï¼š\n");
 	scanf("%d", &totalMin);
 	while (totalMin > 0)
 	{
-		int hour = totalMin / SIZE; // Ê±
-		int min = totalMin % SIZE; // ·Ö
+		int hour = totalMin / SIZE; // æ—¶
+		int min = totalMin % SIZE; // åˆ†
 		printf("hout:%d,min=%d\n", hour, min);
-		printf("ÊäÈë·ÖÖÓÊ±¼ä(ÊäÈëÖµĞ¡ÓÚ»òµÈÓÚ0Ê±ÍË³ö³ÌĞò)£º\n");
+		printf("è¾“å…¥åˆ†é’Ÿæ—¶é—´(è¾“å…¥å€¼å°äºæˆ–ç­‰äº0æ—¶é€€å‡ºç¨‹åº)ï¼š\n");
 		scanf("%d", &totalMin);
 	}
 	printf("Done!\n");

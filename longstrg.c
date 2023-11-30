@@ -1,13 +1,13 @@
-/* longstrg.c --´òÓ¡½Ï³¤µÄ×Ö·û´®  */
+ï»¿/* longstrg.c --æ‰“å°è¾ƒé•¿çš„å­—ç¬¦ä¸²  */
 #include <stdio.h>
 int main(void)
 {
 	int len = printf("Here's one way to print a ");
 	printf("long string.\n");
 	printf("Here's another way to print a \
-long string.\n"); // '\'×Ö·û»»ĞĞ²»ÒªÊ¹ÓÃËõ½ø£¬»á½«Ëõ½øµ±³É´òÓ¡×Ö·û´òÓ¡£¡
+long string.\n"); // '\'å­—ç¬¦æ¢è¡Œä¸è¦ä½¿ç”¨ç¼©è¿›ï¼Œä¼šå°†ç¼©è¿›å½“æˆæ‰“å°å­—ç¬¦æ‰“å°ï¼
 	printf("Here's the newest way to print a "
-		"long string.\n"); // ANSI C Á½¸öË«ÒıºÅÀ¨ÆğÀ´µÄ×Ö·û´®Ö®¼äÓÃ¿Õ°×¸ô¿ª£¬C±àÒëÆ÷»á°Ñ¶à¸ö×Ö·û´®¿´×÷ÊÇÒ»¸ö×Ö·û´®¡£
+		"long string.\n"); // ANSI C ä¸¤ä¸ªåŒå¼•å·æ‹¬èµ·æ¥çš„å­—ç¬¦ä¸²ä¹‹é—´ç”¨ç©ºç™½éš”å¼€ï¼ŒCç¼–è¯‘å™¨ä¼šæŠŠå¤šä¸ªå­—ç¬¦ä¸²çœ‹ä½œæ˜¯ä¸€ä¸ªå­—ç¬¦ä¸²ã€‚
 
 	return 0;
 }

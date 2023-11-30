@@ -1,7 +1,7 @@
-/* praise2.c */
-/*Èç¹û±àÒëÆ÷²»Ê¶±ğ%zd,³¢ÊÔ»»³É%u»ò%lu*/
-#define _CRT_SECURE_NO_WARNINGS // ½ûÓÃ¾¯¸æ
-#include <stdio.h> // Ìá¹©strlen()º¯ÊıµÄÔ­ĞÍ
+ï»¿/* praise2.c */
+/*å¦‚æœç¼–è¯‘å™¨ä¸è¯†åˆ«%zd,å°è¯•æ¢æˆ%uæˆ–%lu*/
+#define _CRT_SECURE_NO_WARNINGS // ç¦ç”¨è­¦å‘Š
+#include <stdio.h> // æä¾›strlen()å‡½æ•°çš„åŸå‹
 #include <string.h>
 #define PRAISE "You are an extraordinary being."
 

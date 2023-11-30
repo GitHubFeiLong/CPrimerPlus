@@ -1,5 +1,5 @@
-#include <stdio.h>
-void one_three(void); // ANSI/ISO Cº¯ÊýÔ­ÐÍ
+ï»¿#include <stdio.h>
+void one_three(void); // ANSI/ISO Cå‡½æ•°åŽŸåž‹
 void two(void);
 
 int main(void)

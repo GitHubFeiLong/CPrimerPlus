@@ -579,10 +579,109 @@
     <ClCompile Include="str_cat.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="comback.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="copy1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="copy2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="copy3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dyn_arr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="format.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="global.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hello.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="join_chk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mod_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nogo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rand0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="repeat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="review_11_10.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="review_11_9.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="r_drive0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="r_drive1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_str.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="starsrch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="strcnvt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_12_2_a.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_12_2_b.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_11_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_11_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_11_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_11_4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_11_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_12_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_12_4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_12_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_12_6.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hotel.h">
       <Filter>头文件\第九章</Filter>
+    </ClInclude>
+    <ClInclude Include="s_gets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="work_12_2_a.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-/* format.c -- ��ʽ���ַ��� */
+﻿/* format.c -- 格式化字符串 */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "s_gets.h"

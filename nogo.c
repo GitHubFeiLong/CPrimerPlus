@@ -1,4 +1,4 @@
-/* nogo.c -- ¸Ã³ÌĞòÊÇ·ñÄÜÕı³£ÔËĞĞ */
+ï»¿/* nogo.c -- è¯¥ç¨‹åºæ˜¯å¦èƒ½æ­£å¸¸è¿è¡Œ */
 #include <stdio.h>
 #include "s_gets.h"
 #include <string.h>
@@ -11,7 +11,7 @@ int main(void)
 
 	puts("Who is buried in Grant's tomb?");
 	s_gets(try, SIZE);
-	// while (try != ANSWER) // ÕâÑù»áÒ»Ö±false£¬ ÒòÎªÁ½¸öÖ¸ÕëÓÀÔ¶²»ÏàµÈ¡£
+	// while (try != ANSWER) // è¿™æ ·ä¼šä¸€ç›´falseï¼Œ å› ä¸ºä¸¤ä¸ªæŒ‡é’ˆæ°¸è¿œä¸ç›¸ç­‰ã€‚
 	while (strcmp(try, ANSWER) != 0)
 	{
 		puts("No, that's wrong. Try again.");

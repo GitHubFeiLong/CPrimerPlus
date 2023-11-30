@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>
 
@@ -6,9 +6,9 @@ int main(void)
 {
 	char firstName[40];
 	char lastName[40];
-	printf("ÇëÊäÈëÄãµÄÃû£º\n");
+	printf("è¯·è¾“å…¥ä½ çš„åï¼š\n");
 	scanf("%s", firstName);
-	printf("ÇëÊäÈëÄãµÄĞÕ£º\n");
+	printf("è¯·è¾“å…¥ä½ çš„å§“ï¼š\n");
 	scanf("%s", lastName);
 	printf("%s %s\n", firstName, lastName);
 	printf("%*d %*d\n", strlen(firstName), strlen(firstName), strlen(lastName), strlen(lastName));

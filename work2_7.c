@@ -1,5 +1,5 @@
-#include <stdio.h>
-void printSmile(void); // ANSI/ISO Cº¯ÊýÔ­ÐÍ£¨º¯ÊýÉùÃ÷£©
+ï»¿#include <stdio.h>
+void printSmile(void); // ANSI/ISO Cå‡½æ•°åŽŸåž‹ï¼ˆå‡½æ•°å£°æ˜Žï¼‰
 
 int main(void)
 {

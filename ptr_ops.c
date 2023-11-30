@@ -1,36 +1,36 @@
-// ptr_ops.c -- Ö¸Õë²Ù×÷
+ï»¿// ptr_ops.c -- æŒ‡é’ˆæ“ä½œ
 #include <stdio.h>
 int main(void)
 {
 	int urn[5] = { 100, 200, 300, 400, 500 };
 	int * ptr1, * ptr2, * ptr3;
 
-	ptr1 = urn;			// °ÑÒ»¸öµØÖ·¸³¸øÖ¸Õë
-	ptr2 = &urn[2];		// °ÑÒ»¸öµØÖ·¸³¸øÖ¸Õë
+	ptr1 = urn;			// æŠŠä¸€ä¸ªåœ°å€èµ‹ç»™æŒ‡é’ˆ
+	ptr2 = &urn[2];		// æŠŠä¸€ä¸ªåœ°å€èµ‹ç»™æŒ‡é’ˆ
 
 
 	printf("pointer value, dereferenced pointer, pointer address:\n");
 	printf("ptr1 = %p, *ptr1 = %d, &ptr1 = %p\n", ptr1, *ptr1, &ptr1);
 
-	// Ö¸Õë¼Ó·¨
+	// æŒ‡é’ˆåŠ æ³•
 	ptr3 = ptr1 + 4;
 	printf("\nadding an int to a pointer:\n");
 	printf("ptr1 + 4 = %p, *(ptr1 + 4) = %d\n", ptr1 + 4, *(ptr1 + 4));
-	ptr1++;				// µİÔöÖ¸Õë
+	ptr1++;				// é€’å¢æŒ‡é’ˆ
 	printf("\nvalues after prt1++:\n");
 	printf("ptr1 = %p, *ptr1 = %d, &ptr1 = %p\n", ptr1, *ptr1, &ptr1);
-	ptr2--;				// µİ¼õÖ¸Õë
+	ptr2--;				// é€’å‡æŒ‡é’ˆ
 	printf("\nvalues after --ptr2:\n");
 	printf("ptr2 = %p, *ptr2 = %d, &ptr2 = %p\n", ptr2, *ptr2, &ptr2);
-	--ptr1;				// »Ö¸´Îª³õÊ¼Öµ
-	++ptr2;				// »Ö¸´Îª³õÊ¼Öµ
+	--ptr1;				// æ¢å¤ä¸ºåˆå§‹å€¼
+	++ptr2;				// æ¢å¤ä¸ºåˆå§‹å€¼
 	printf("\nPointers reset to original values:\n");
 	printf("ptr1 = %p, ptr2 = %p\n", ptr1, ptr2);
 
-	// Ò»¸öÖ¸Õë¼õÈ¥ÁíÒ»¸öÖ¸Õë
+	// ä¸€ä¸ªæŒ‡é’ˆå‡å»å¦ä¸€ä¸ªæŒ‡é’ˆ
 	printf("\nsubtracting one pointer from another:\n");
 	printf("ptr2 = %p, ptr1 = %p, ptr2 - ptr1 = %td\n", ptr2, ptr1, ptr2 - ptr1);
-	// Ò»¸öÖ¸Õë¼õÈ¥Ò»¸öÕûÊı
+	// ä¸€ä¸ªæŒ‡é’ˆå‡å»ä¸€ä¸ªæ•´æ•°
 	printf("\nsubracting an int from a pointer:\n");
 	printf("ptr3 = %p, ptr3 - 2 = %p\n", ptr3, ptr3 - 2);
 

@@ -1,4 +1,4 @@
-/* copy1.c -- ��ʾ strcpy()*/
+﻿/* copy1.c -- 演示 strcpy()*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <string.h>

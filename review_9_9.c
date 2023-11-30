@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 void showmenu(void);
@@ -12,7 +12,7 @@ int main(void)
 	showmenu();
 	while ((r = getchoice(1, 4)) != 4)
 	{
-		printf("ÏÔÊ¾²Ëµ¥£º\n");
+		printf("æ˜¾ç¤ºèœå•ï¼š\n");
 		showmenu();
 	}
 	printf("Bye!\n");
@@ -43,7 +43,7 @@ int getchoice(int min, int max)
 		showmenu();
 		flag = scanf("%d", &i);
 	}
-	// ¶ÁÈ¡Ê£ÓàµÄ×Ö·û
+	// è¯»å–å‰©ä½™çš„å­—ç¬¦
 	if (flag != 1)
 		return 4;
 

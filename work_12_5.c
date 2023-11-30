@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -11,17 +11,17 @@ int main(void)
 	int num, min, max;
 	double* arr;
 
-	printf("ÇëÊäÈëÒªÉú³É¶àÉÙ¸öËæ»úÊı£º");
+	printf("è¯·è¾“å…¥è¦ç”Ÿæˆå¤šå°‘ä¸ªéšæœºæ•°ï¼š");
 	scanf("%d", &num);
-	printf("ÇëÊäÈëÉú³ÉËæ»úÊıµÄ×îĞ¡ÖµºÍ×î´óÖµ£¨¿Õ¸ñ¸ô¿ª£©£º");
+	printf("è¯·è¾“å…¥ç”Ÿæˆéšæœºæ•°çš„æœ€å°å€¼å’Œæœ€å¤§å€¼ï¼ˆç©ºæ ¼éš”å¼€ï¼‰ï¼š");
 	scanf("%d %d", &min, &max);
 	arr = create_rand(num, min, max);
-	printf("ÔÚ%d~%d·¶Î§ÄÚ¹²Éú³É%d¸öËæ»úÊı£º\n", min, max, num);
+	printf("åœ¨%d~%dèŒƒå›´å†…å…±ç”Ÿæˆ%dä¸ªéšæœºæ•°ï¼š\n", min, max, num);
 	print_arr(arr, num);
 	sort(arr, num);
-	printf("ÅÅĞòºóµÄ½á¹û£º\n");
+	printf("æ’åºåçš„ç»“æœï¼š\n");
 	print_arr(arr, num);
-	// Çå³ıÄÚ´æ
+	// æ¸…é™¤å†…å­˜
 	free(arr);
 	return 0;
 }
@@ -32,10 +32,10 @@ int* create_rand(int num, int min, int max)
 	int* arr = (int*)malloc(num * sizeof(int));
 	if (arr == NULL)
 	{
-		printf("·ÖÅäÄÚ´æÊ§°Ü\n");
+		printf("åˆ†é…å†…å­˜å¤±è´¥\n");
 		exit(EXIT_FAILURE);
 	}
-	// Éú³ÉËæ»úÊıÖÖ×Ó
+	// ç”Ÿæˆéšæœºæ•°ç§å­
 	srand(time(NULL));
 	for (i = 0; i < num; i++)
 		arr[i] = rand() % max + 1;

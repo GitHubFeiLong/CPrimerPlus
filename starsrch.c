@@ -1,4 +1,4 @@
-/* starsrch.c -- ʹ��strncmp() */
+﻿/* starsrch.c -- 使用strncmp() */
 #include <stdio.h>
 #include <string.h>
 #define LISTSIZE 6

@@ -1,11 +1,11 @@
-/* lethead.c*/
+ï»¿/* lethead.c*/
 #include <stdio.h>
 #define NAME "GIGATHINK, INC."
 #define ADDRESS "101 Megabuck Plaza"
 #define PLACE "Megapolis, CA 949404"
 #define WIDTH 40
 
-void starbar(void); // ANSI C º¯ÊýÔ­ÐÍ
+void starbar(void); // ANSI C å‡½æ•°åŽŸåž‹
 
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
 	return 0;
 }
 
-void starbar(void) /* ¶¨Òåº¯Êý */
+void starbar(void) /* å®šä¹‰å‡½æ•° */
 {
 	int count;
 	

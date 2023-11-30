@@ -1,20 +1,20 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #define SPACE ' '
 
 int main(void)
 {
 	char ch;
 
-	ch = getchar();				// ¶ÁÈ¡Ò»¸ö×Ö·û
-	while (ch != '\n')			// µ±Ò»ĞĞÎ´½áÊøÊ±
+	ch = getchar();				// è¯»å–ä¸€ä¸ªå­—ç¬¦
+	while (ch != '\n')			// å½“ä¸€è¡Œæœªç»“æŸæ—¶
 	{
-		if (ch == SPACE)		// ÁôÏÂ¿Õ¸ñ
-			putchar(ch);		// ¸Ã×Ö·û²»±ä
+		if (ch == SPACE)		// ç•™ä¸‹ç©ºæ ¼
+			putchar(ch);		// è¯¥å­—ç¬¦ä¸å˜
 		else
-			putchar(ch + 1);	// ¸Ä±äÆäËû×Ö·û
-		ch = getchar();			// »ñÈ¡ÏÂÒ»¸ö×Ö·û
+			putchar(ch + 1);	// æ”¹å˜å…¶ä»–å­—ç¬¦
+		ch = getchar();			// è·å–ä¸‹ä¸€ä¸ªå­—ç¬¦
 	}
-	putchar(ch);				// ´òÓ¡»»ĞĞ·û
+	putchar(ch);				// æ‰“å°æ¢è¡Œç¬¦
 
 	return 0;
 }

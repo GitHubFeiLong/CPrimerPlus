@@ -1,4 +1,4 @@
-/* floaterr.c -- ÑİÊ¾ÉáÈë´íÎó */
+ï»¿/* floaterr.c -- æ¼”ç¤ºèˆå…¥é”™è¯¯ */
 #include <stdio.h>
 int main(void)
 {

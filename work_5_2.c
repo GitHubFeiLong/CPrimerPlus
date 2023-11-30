@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #define LIMIT 10
 
@@ -7,7 +7,7 @@ int main(void)
 	int input;
 	int max;
 
-	printf("ÇëÊäÈëÒ»¸öÕûÊı£¬³ÌĞò»á´òÓ¡±È¸ÃÊı´ó10µÄËùÓĞÕûÊı£º\n");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªæ•´æ•°ï¼Œç¨‹åºä¼šæ‰“å°æ¯”è¯¥æ•°å¤§10çš„æ‰€æœ‰æ•´æ•°ï¼š\n");
 	scanf("%d", &input);
 	max = input + LIMIT;
 	while (input++ < max)

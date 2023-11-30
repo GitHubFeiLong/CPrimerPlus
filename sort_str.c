@@ -1,32 +1,32 @@
-/* sort_str.c -- ¶ÁÈë×Ö·û´®£¬²¢ÅÅĞò×Ö·û´® */
+ï»¿/* sort_str.c -- è¯»å…¥å­—ç¬¦ä¸²ï¼Œå¹¶æ’åºå­—ç¬¦ä¸² */
 #include <stdio.h>
 #include <string.h>
 #include "s_gets.h"
-#define SIZE 81		// ÏŞÖÆ×Ö·û´®³¤¶È£¬°üÀ¨\0
-#define LIM 20		// ¿É¶ÁÈëµÄ×î¶àĞĞÊı
-#define HALT ""		// ¿Õ×Ö·û´®Í£Ö¹ÊäÈë
+#define SIZE 81		// é™åˆ¶å­—ç¬¦ä¸²é•¿åº¦ï¼ŒåŒ…æ‹¬\0
+#define LIM 20		// å¯è¯»å…¥çš„æœ€å¤šè¡Œæ•°
+#define HALT ""		// ç©ºå­—ç¬¦ä¸²åœæ­¢è¾“å…¥
 
-void stsrt(char* strings[], int num); // ×Ö·û´®ÅÅĞòº¯Êı
+void stsrt(char* strings[], int num); // å­—ç¬¦ä¸²æ’åºå‡½æ•°
 
 int main(void)
 {
-	char input[LIM][SIZE];	// ´æ´¢ÊäÈëµÄÊı×é
-	char* ptstr[LIM];		// ÄÚº­Ö¸Õë±äÁ¿µÄÊı×é
-	int ct = 0;				// ÊäÈë¼ÆÊı
-	int k;					// Êä³ö¼ÆÊı
+	char input[LIM][SIZE];	// å­˜å‚¨è¾“å…¥çš„æ•°ç»„
+	char* ptstr[LIM];		// å†…æ¶µæŒ‡é’ˆå˜é‡çš„æ•°ç»„
+	int ct = 0;				// è¾“å…¥è®¡æ•°
+	int k;					// è¾“å‡ºè®¡æ•°
 
 	printf("Input up to %d lines, and I will sort them.\n", LIM);
 	printf("To stop,press the Enter key at a line's start.\n");
 	while (ct < LIM && s_gets(input[ct], SIZE) != NULL
 		&& input[ct][0] != '\0')
 	{
-		ptstr[ct] = input[ct];	// ÉèÖÃÖ¸ÕëÖ¸Ïò×Ö·û´®
+		ptstr[ct] = input[ct];	// è®¾ç½®æŒ‡é’ˆæŒ‡å‘å­—ç¬¦ä¸²
 		ct++;
 	}
-	stsrt(ptstr, ct);		// ×Ö·û´®ÅÅĞòº¯Êı
+	stsrt(ptstr, ct);		// å­—ç¬¦ä¸²æ’åºå‡½æ•°
 	puts("\nHere's the sorted list:\n");
 	for (k = 0; k < ct; k++)
-		puts(ptstr[k]);		// ÅÅĞòºóµÄÖ¸Õë
+		puts(ptstr[k]);		// æ’åºåçš„æŒ‡é’ˆ
 
 	return 0;
 }

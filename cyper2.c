@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <ctype.h> // °üº¬isalpha()µÄº¯ÊıÔ­ĞÍ
+ï»¿#include <stdio.h>
+#include <ctype.h> // åŒ…å«isalpha()çš„å‡½æ•°åŸå‹
 
 int main(void)
 {
@@ -7,7 +7,7 @@ int main(void)
 
 	while ((ch = getchar()) != '\n')
 	{
-		if (isalpha(ch)) // Èç¹ûchÊÇÒ»¸ö×ÖÄ¸·µ»Ø·ÇÁãÖµ£¬·ñÔò·µ»Ø0.
+		if (isalpha(ch)) // å¦‚æœchæ˜¯ä¸€ä¸ªå­—æ¯è¿”å›éé›¶å€¼ï¼Œå¦åˆ™è¿”å›0.
 			putchar(ch + 1);
 		else
 			putchar(ch);

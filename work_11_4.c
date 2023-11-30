@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <ctype.h>
 #define WORD 4
 #define LEN 20
@@ -42,7 +42,7 @@ void input(char words[][LEN], int num)
 		{
 			flag = 0;
 			words[i][j] = '\0';
-			// ¶ÁÈ¡Ê£Óà×Ö·û
+			// è¯»å–å‰©ä½™å­—ç¬¦
 			if (c != '\n')
 				while (getchar() != '\n')
 					continue;

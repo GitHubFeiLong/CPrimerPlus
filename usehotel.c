@@ -1,4 +1,4 @@
-/* usehotel.c -- ·¿¼ä·ÑÂÊ³ÌĞò */
+ï»¿/* usehotel.c -- æˆ¿é—´è´¹ç‡ç¨‹åº */
 #include <stdio.h>
 #include "hotel.h"
 

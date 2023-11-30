@@ -1,5 +1,5 @@
-/* r_driver1.c ²âÊÔrand1()ºÍsrand1()*/
-/* Óërand0.c Ò»Æğ±àÒë*/
+ï»¿/* r_driver1.c æµ‹è¯•rand1()å’Œsrand1()*/
+/* ä¸rand0.c ä¸€èµ·ç¼–è¯‘*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 

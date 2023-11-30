@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
 
 	while (input > 0)
 	{
-		printf("ÊäÈëÕûÊı£º");
+		printf("è¾“å…¥æ•´æ•°ï¼š");
 		scanf("%d", &input);
 		if (input <= 0)
 			break;

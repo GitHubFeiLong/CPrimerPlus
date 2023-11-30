@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
@@ -8,8 +8,8 @@ int main(void)
 	scanf("%c", &ch); 
 	while (ch != 'g')
 	{
-		printf("%c", ++ch); // ´òÓ¡×Ö·ûºóÃæÒ»¸ö×Ö·û¡£
-		scanf("%c", &ch); // ½Ó×Å¶Á×Ö·û·ÅÈëch±äÁ¿ÖÐ
+		printf("%c", ++ch); // æ‰“å°å­—ç¬¦åŽé¢ä¸€ä¸ªå­—ç¬¦ã€‚
+		scanf("%c", &ch); // æŽ¥ç€è¯»å­—ç¬¦æ”¾å…¥chå˜é‡ä¸­
 	}
 
 	return 0;

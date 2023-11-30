@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 #include<stdbool.h>
 
@@ -10,13 +10,13 @@ int main(void)
 	char c;
 	bool guessSure = 0;
 
-	printf("ÇëÄú×¼±¸Ò»¸ö1-100µÄÕûÊı£¬ÎÒËµ³öÒ»¸öÊı×Ö£¬"
-		"Äã»Ø´ğ´óÁË£¨b£©»ò Ğ¡ÁË£¨x£©ÕıÈ·£¨s£©,"
-		"°´ÏÂqÍË³ö³ÌĞò");
+	printf("è¯·æ‚¨å‡†å¤‡ä¸€ä¸ª1-100çš„æ•´æ•°ï¼Œæˆ‘è¯´å‡ºä¸€ä¸ªæ•°å­—ï¼Œ"
+		"ä½ å›ç­”å¤§äº†ï¼ˆbï¼‰æˆ– å°äº†ï¼ˆxï¼‰æ­£ç¡®ï¼ˆsï¼‰,"
+		"æŒ‰ä¸‹qé€€å‡ºç¨‹åº");
 
 	while (!guessSure)
 	{
-		printf("Äã×¼±¸µÄÊÇ£º%d?", guessNum);
+		printf("ä½ å‡†å¤‡çš„æ˜¯ï¼š%d?", guessNum);
 		while (scanf("%c", &c) != 1)
 		{
 			
@@ -32,14 +32,14 @@ int main(void)
 			guessNum = (max - guessNum) / 2 + guessNum;
 			break;
 		case 's':
-			printf("²Â²âÕıÈ·%d\n", guessNum);
+			printf("çŒœæµ‹æ­£ç¡®%d\n", guessNum);
 			guessSure = 1;
 			break;
 		case 'q':
 			goto A;
 			break;
 		default:
-			printf("%c ÊÇÒ»¸ö´íÎóµÄÑ¡Ïî,ÇëÖØĞÂÊäÈë£¬´óÁË£¨b£©»ò Ğ¡ÁË£¨x£©»ò°´ÏÂqÍË³ö³ÌĞò£º", c);
+			printf("%c æ˜¯ä¸€ä¸ªé”™è¯¯çš„é€‰é¡¹,è¯·é‡æ–°è¾“å…¥ï¼Œå¤§äº†ï¼ˆbï¼‰æˆ– å°äº†ï¼ˆxï¼‰æˆ–æŒ‰ä¸‹qé€€å‡ºç¨‹åºï¼š", c);
 			break;
 		}
 	}

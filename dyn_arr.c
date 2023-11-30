@@ -1,7 +1,7 @@
-/* dyn.arr.c -- ¶¯Ì¬·ÖÅäÊı×é */
+ï»¿/* dyn.arr.c -- åŠ¨æ€åˆ†é…æ•°ç»„ */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <stdlib.h> // Îª malloc()¡¢free()Ìá¹©Ô­ĞÍ
+#include <stdlib.h> // ä¸º malloc()ã€free()æä¾›åŸå‹
 
 int main(void)
 {
@@ -16,7 +16,7 @@ int main(void)
 		puts("Number not correctly entered -- bye.");
 		exit(EXIT_FAILURE);
 	}
-	// ÔÚÊ¹ÓÃfree(ptd)Ö®Ç°£¬ptd²»ÄÜ½øĞĞĞŞ¸Ä
+	// åœ¨ä½¿ç”¨free(ptd)ä¹‹å‰ï¼Œptdä¸èƒ½è¿›è¡Œä¿®æ”¹
 	ptd = (double*)malloc(max * sizeof(double));
 	if (ptd == NULL)
 	{
@@ -24,7 +24,7 @@ int main(void)
 		exit(EXIT_FAILURE);
 	}
 	
-	// ptdÏÖÔÚÖ¸ÏòÓĞmax¸öÔªËØµÄÊı×é
+	// ptdç°åœ¨æŒ‡å‘æœ‰maxä¸ªå…ƒç´ çš„æ•°ç»„
 	puts("Enter the values(q to quit):");
 	while (i < max && scanf("%lf", &ptd[i]) == 1)
 		++i;

@@ -1,4 +1,4 @@
-/* review_5_6.c -- µÚ5ÕÂ¸´Ï°ÌâÖĞµÄµÚ6Ìâ */
+ï»¿/* review_5_6.c -- ç¬¬5ç« å¤ä¹ é¢˜ä¸­çš„ç¬¬6é¢˜ */
 #include <stdio.h>
 #define FORMAT "%s! C is cool!\n"
 

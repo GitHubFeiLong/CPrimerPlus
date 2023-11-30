@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 
 int main(void)
 {
@@ -31,7 +31,7 @@ int main(void)
 		default:
 			if (c < ' ')
 			{
-				// .... �Ǵ�ӡ�ַ� https://www.runoob.com/w3cnote/ascii.html
+				// .... 非打印字符 https://www.runoob.com/w3cnote/ascii.html
 			}
 			else
 			{

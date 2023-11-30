@@ -1,4 +1,4 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <float.h>
 
 double get_diff_value(double * arr, int size);

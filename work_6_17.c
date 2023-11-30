@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #define WIN_AMOUNT 1e6
 #define OUT 1e5
 
@@ -11,10 +11,10 @@ int main(void)
 	{
 		i++;
 		f1 = account * 0.08;
-		account += f1 - OUT; // ¼ÓÉÏÀûÏ¢, ¼õÈ¥È¡¿î
-		printf("µÚ%dÄê£¬ÒøÐÐÊ£ÓàÓà¶î£º%f, µ±Äê×¬È¡ÀûÏ¢ %f£¬È¡³ö%f\n", i, account, f1, OUT);
+		account += f1 - OUT; // åŠ ä¸Šåˆ©æ¯, å‡åŽ»å–æ¬¾
+		printf("ç¬¬%då¹´ï¼Œé“¶è¡Œå‰©ä½™ä½™é¢ï¼š%f, å½“å¹´èµšå–åˆ©æ¯ %fï¼Œå–å‡º%f\n", i, account, f1, OUT);
 	} while (account >= OUT);
 
-	printf("%d Äêºó£¬È¡Íê", account > 0 ? i+1 : i);
+	printf("%d å¹´åŽï¼Œå–å®Œ", account > 0 ? i+1 : i);
 	return 0;
 }

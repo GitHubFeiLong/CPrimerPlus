@@ -1,10 +1,10 @@
-/* shoes2.c -- ¼ÆËã¶à¸ö²»Í¬Ğ¬Âë¶ÔÓ¦µÄ½Å³¤ */
+ï»¿/* shoes2.c -- è®¡ç®—å¤šä¸ªä¸åŒé‹ç å¯¹åº”çš„è„šé•¿ */
 #include <stdio.h>
 #define ADJUST 7.31
 
 int main(void)
 {
-	const double SCALE = 0.333; // const±äÁ¿
+	const double SCALE = 0.333; // constå˜é‡
 	double shoe, foot;
 
 	printf("Shoe size (men's) foor length\n");

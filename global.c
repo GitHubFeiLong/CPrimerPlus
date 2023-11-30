@@ -1,4 +1,4 @@
-/* global.c Ê¹ÓÃÍâ²¿±äÁ¿*/
+ï»¿/* global.c ä½¿ç”¨å¤–éƒ¨å˜é‡*/
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 int units = 0;

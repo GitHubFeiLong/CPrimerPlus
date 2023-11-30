@@ -1,5 +1,5 @@
-/* praise1.c -- Ê¹ÓÃ²»Í¬ÀàĞÍµÄ×Ö·û´® */
-#define _CRT_SECURE_NO_WARNINGS // ½ûÓÃscanf±¨´í
+ï»¿/* praise1.c -- ä½¿ç”¨ä¸åŒç±»å‹çš„å­—ç¬¦ä¸² */
+#define _CRT_SECURE_NO_WARNINGS // ç¦ç”¨scanfæŠ¥é”™
 #include <stdio.h>
 #define PRAISE "You are an extraordinary being."
 

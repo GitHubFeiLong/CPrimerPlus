@@ -1,19 +1,19 @@
-// talkback.c -- ÑİÊ¾ÓëÓÃ»§½»»¥
-#define _CRT_SECURE_NO_WARNINGS // ½ûÓÃscanf±¨´í
+ï»¿// talkback.c -- æ¼”ç¤ºä¸ç”¨æˆ·äº¤äº’
+#define _CRT_SECURE_NO_WARNINGS // ç¦ç”¨scanfæŠ¥é”™
 #include <stdio.h>
-#include <string.h> // Ìá¹©strlen()º¯ÊıµÄÔ­ĞÍ
-#define DENSITY 62.4 // ÈËÌåÃÜ¶È£¨µ¥Î»£º°õ/Á¢·½Ó¢³ß£©
+#include <string.h> // æä¾›strlen()å‡½æ•°çš„åŸå‹
+#define DENSITY 62.4 // äººä½“å¯†åº¦ï¼ˆå•ä½ï¼šç£…/ç«‹æ–¹è‹±å°ºï¼‰
 int main()
 {
 	float weight, volume;
 	int size, letters;
-	char name[40]; // nameÊÇÒ»¸ö¿ÉÈİÄÉ40¸ö×Ö·û£¨Êµ¼Ê39¸ö£¬Ê£Óà1¸ö´æ´¢ASCIIÂëÖµ0Ò²¾ÍÊÇ'\0'£©µÄÊı×é
+	char name[40]; // nameæ˜¯ä¸€ä¸ªå¯å®¹çº³40ä¸ªå­—ç¬¦ï¼ˆå®é™…39ä¸ªï¼Œå‰©ä½™1ä¸ªå­˜å‚¨ASCIIç å€¼0ä¹Ÿå°±æ˜¯'\0'ï¼‰çš„æ•°ç»„
 
 	printf("Hi! What's your first name?\n");
 	scanf("%s", name);
 	printf("%s, what's your weight in pounds?\n", name);
 	scanf_s("%f", &weight);
-	size = sizeof(name); // ×Ö½ÚÊı
+	size = sizeof(name); // å­—èŠ‚æ•°
 	letters = strlen(name);
 	volume = weight / DENSITY;
 	printf("Well, %s, your volume is %2.2f cubic feet.\n", name, volume);

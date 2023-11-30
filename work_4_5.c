@@ -1,12 +1,12 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
 {
 	float speed, filesize;
-	printf("ÊäÈëÏÂÔØËÙ¶È£¨µ¥Î»Mb/s£©:\n");
+	printf("è¾“å…¥ä¸‹è½½é€Ÿåº¦ï¼ˆå•ä½Mb/sï¼‰:\n");
 	scanf("%f", &speed);
-	printf("ÊäÈëÎÄ¼ş´óĞ¡£¨µ¥Î»MB£©\n");
+	printf("è¾“å…¥æ–‡ä»¶å¤§å°ï¼ˆå•ä½MBï¼‰\n");
 	scanf("%f", &filesize);
 	printf("At %.2f megabits per second, a file of %.2f megabytes\ndownloads in %.2f seconds", speed, filesize, filesize * 8 / speed);
 

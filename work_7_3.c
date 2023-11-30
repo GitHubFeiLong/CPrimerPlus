@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
 	oddNum = 0;
 	evenSum = 0;
 	oddSum = 0;
-	printf("ÇëÊäÈëÊı×Ö£¨ÊäÈë0ÍË³ö³ÌĞò£©\n");
+	printf("è¯·è¾“å…¥æ•°å­—ï¼ˆè¾“å…¥0é€€å‡ºç¨‹åºï¼‰\n");
 	
 	while (scanf("%d", &in) == 1 && in != 0)
 	{
@@ -25,8 +25,8 @@ int main(void)
 		}
 	}
 
-	printf("ÊäÈëµÄÅ¼Êı¸öÊı£º%d, ËùÓĞÅ¼ÊıµÄÆ½¾ùÖµ£º%.2f\n", evenNum, (float)evenSum / evenNum);
-	printf("ÊäÈëµÄÆæÊı¸öÊı£º%d, ËùÓĞÆæÊıµÄÆ½¾ùÖµ£º%.2f\n", oddNum, (float)oddSum / oddNum);
+	printf("è¾“å…¥çš„å¶æ•°ä¸ªæ•°ï¼š%d, æ‰€æœ‰å¶æ•°çš„å¹³å‡å€¼ï¼š%.2f\n", evenNum, (float)evenSum / evenNum);
+	printf("è¾“å…¥çš„å¥‡æ•°ä¸ªæ•°ï¼š%d, æ‰€æœ‰å¥‡æ•°çš„å¹³å‡å€¼ï¼š%.2f\n", oddNum, (float)oddSum / oddNum);
 
 
 	return 0;
