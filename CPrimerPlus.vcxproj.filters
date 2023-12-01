@@ -52,6 +52,9 @@
     <Filter Include="源文件\第十二章">
       <UniqueIdentifier>{ec04eab6-ae40-4c41-b725-518bed18d287}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第十三章">
+      <UniqueIdentifier>{07cd73bb-ed0b-4171-9a1f-bc9ac130ff45}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first2_1.c">
@@ -677,6 +680,21 @@
     </ClCompile>
     <ClCompile Include="work_12_6.c">
       <Filter>源文件\第十二章</Filter>
+    </ClCompile>
+    <ClCompile Include="addaword.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="append.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="count.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="reducto.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse.c">
+      <Filter>源文件\第十三章</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
