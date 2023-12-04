@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,7 +10,7 @@ int main(int argc, char* argv[])
 
 	if (argc < 2)
 	{
-		fprintf(stderr,"ÇëÌí¼ÓÃüÁîÐÐ²ÎÊý\n");
+		fprintf(stderr,"è¯·æ·»åŠ å‘½ä»¤è¡Œå‚æ•°\n");
 		exit(EXIT_FAILURE);
 	}
 
@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
 	{
 		if ((fp = fopen(argv[fileIndex], "r")) == NULL)
 		{
-			printf("´ò¿ªÎÄ¼þ£º%sÊ§°Ü\n", argv[fileIndex]);
+			printf("æ‰“å¼€æ–‡ä»¶ï¼š%så¤±è´¥\n", argv[fileIndex]);
 			continue;
 		}
 		printf("\n%s:\n", argv[fileIndex]);
@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
 		}
 		if (fclose(fp) != 0)
 		{
-			printf("\n%s¹Ø±ÕÊ§°Ü", argv[fileIndex]);
+			printf("\n%så…³é—­å¤±è´¥", argv[fileIndex]);
 			exit(EXIT_FAILURE);
 		}
 	}

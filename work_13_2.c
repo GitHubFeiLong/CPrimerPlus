@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,34 +10,34 @@ int main(int argc, char* argv[])
 
 	if (argc < 3)
 	{
-		printf("%s ²ÎÊý¶ªÊ§", argv[0]);
+		printf("%s å‚æ•°ä¸¢å¤±", argv[0]);
 		exit(EXIT_FAILURE);
 	}
 
-	// ³¢ÊÔ´ò¿ªÔ´ÎÄ¼þ
+	// å°è¯•æ‰“å¼€æºæ–‡ä»¶
 	if ((fp_src = fopen(argv[1], "rb")) == NULL)
 	{
-		fprintf(stderr, "´ò¿ªÔ´ÎÄ¼þ%sÊ§°Ü\n", argv[1]);
+		fprintf(stderr, "æ‰“å¼€æºæ–‡ä»¶%så¤±è´¥\n", argv[1]);
 		exit(EXIT_FAILURE);
 	}
-	// ³¢ÊÔ´ò¿ªÄ¿±êÎÄ¼þ
+	// å°è¯•æ‰“å¼€ç›®æ ‡æ–‡ä»¶
 	if ((fp_dest = fopen(argv[2], "wb")) == NULL)
 	{
-		fprintf(stderr, "´òÄ¿±êÎÄ¼þ%sÊ§°Ü\n", argv[2]);
+		fprintf(stderr, "æ‰“ç›®æ ‡æ–‡ä»¶%så¤±è´¥\n", argv[2]);
 		exit(EXIT_FAILURE);
 	}
 	
 	while ((ch = fgetc(fp_src)) != EOF)
 	{
-		// Ð´µ½ÎÄ¼þÈ¥
+		// å†™åˆ°æ–‡ä»¶åŽ»
 		fputc(ch, fp_dest);
 	}
 
 	if (fclose(fp_src) != 0 && fclose(fp_dest) != 0)
 	{
-		fprintf(stderr, "¹Ø±ÕÎÄ¼þÊ§°Ü\n");
+		fprintf(stderr, "å…³é—­æ–‡ä»¶å¤±è´¥\n");
 		exit(EXIT_FAILURE);
 	}
-	printf("\nÐ´ÎÄ¼þÍê³É\n");
+	printf("\nå†™æ–‡ä»¶å®Œæˆ\n");
 	return 0;
 }

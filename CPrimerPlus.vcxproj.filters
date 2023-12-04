@@ -696,6 +696,36 @@
     <ClCompile Include="reverse.c">
       <Filter>源文件\第十三章</Filter>
     </ClCompile>
+    <ClCompile Include="work_13_1.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_13_2.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_13_3.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_13_4.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_13_5.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_13_7.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_13_8.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_13_10.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_13_11.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
+    <ClCompile Include="work_13_12.c">
+      <Filter>源文件\第十三章</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hotel.h">

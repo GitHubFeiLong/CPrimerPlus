@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <ctype.h>
 #include <stdlib.h>
@@ -10,21 +10,21 @@ int main(void)
 	FILE* fp;
 	char c;
 
-	printf("ÇëÊäÈëÎÄ¼şÃû£º");
+	printf("è¯·è¾“å…¥æ–‡ä»¶åï¼š");
 	while (scanf("%199s", filename) != 1)
-		printf("ÇëÊäÈëÎÄ¼şÃû£º");
+		printf("è¯·è¾“å…¥æ–‡ä»¶åï¼š");
 	filename[SIZE - 1] = '\0';
 	if ((fp = fopen(filename, "r+")) == NULL)
 	{
-		printf("´ò¿ªÎÄ¼şÊ§°Ü:%s\n", filename);
+		printf("æ‰“å¼€æ–‡ä»¶å¤±è´¥:%s\n", filename);
 		exit(EXIT_FAILURE);
 	}
-	// ÏÈ»ñÈ¡×Ö·û
+	// å…ˆè·å–å­—ç¬¦
 	while ((c = fgetc(fp)) != EOF)
 	{
 		if (islower(c))
 		{
-			// Ğ´Ö®Ç°ĞŞ¸ÄĞ´µÄÎ»ÖÃ£¡
+			// å†™ä¹‹å‰ä¿®æ”¹å†™çš„ä½ç½®ï¼
 			fseek(fp, - 1, SEEK_CUR);
 			fputc(toupper(c), fp);
 			fseek(fp, 0, SEEK_CUR);
@@ -33,7 +33,7 @@ int main(void)
 
 	if (fclose(fp) != 0)
 	{
-		fprintf(stderr, "¹Ø±ÕÎÄ¼şÊ§°Ü£º%s", filename);
+		fprintf(stderr, "å…³é—­æ–‡ä»¶å¤±è´¥ï¼š%s", filename);
 		exit(EXIT_FAILURE);
 	}
 

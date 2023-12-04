@@ -1,4 +1,4 @@
-/* work_13_1.c */
+ï»¿/* work_13_1.c */
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,17 +11,17 @@ int main(void)
 	char filename[SLEN];
 	FILE* fp;
 	
-	printf("ÇëÊäÈëÎÄ¼şÃû£º");
+	printf("è¯·è¾“å…¥æ–‡ä»¶åï¼š");
 	while (scanf("%20s", filename) != 1)
 	{
-		printf("ÇëÊäÈëÕıÈ·µÄÎÄ¼şÃû:");
+		printf("è¯·è¾“å…¥æ­£ç¡®çš„æ–‡ä»¶å:");
 	}
 	if ((fp = fopen(filename, "r")) == NULL)
 	{
-		fprintf(stderr, "´ò¿ªÎÄ¼ş%sÊ§°Ü\n", filename);
+		fprintf(stderr, "æ‰“å¼€æ–‡ä»¶%så¤±è´¥\n", filename);
 		exit(EXIT_FAILURE);
 	}
-	// ¶ÁÈ¡ÎÄ¼ş
+	// è¯»å–æ–‡ä»¶
 	while ((ch = fgetc(fp)) != EOF)
 	{
 		fputc(ch, stdout);
@@ -29,7 +29,7 @@ int main(void)
 	}
 	
 	fclose(fp);
-	printf("\n¶ÁÈ¡ÎÄ¼şÍê±Ï,¹²%d×Ö·û\n", count);
+	printf("\nè¯»å–æ–‡ä»¶å®Œæ¯•,å…±%då­—ç¬¦\n", count);
 
 	return 0;
 }
