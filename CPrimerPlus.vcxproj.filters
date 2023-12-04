@@ -726,6 +726,18 @@
     <ClCompile Include="work_13_12.c">
       <Filter>源文件\第十三章</Filter>
     </ClCompile>
+    <ClCompile Include="book_14_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="manybook_14_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="friend_14_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="friends_14_5.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hotel.h">
