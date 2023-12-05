@@ -747,6 +747,12 @@
     <ClCompile Include="manybook_14_2.c">
       <Filter>源文件\第十四章</Filter>
     </ClCompile>
+    <ClCompile Include="work_14_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="work_14_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hotel.h">
