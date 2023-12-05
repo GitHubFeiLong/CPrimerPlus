@@ -38,3 +38,9 @@ char* s_gets_1(char* st, int n)
 
 	return ret_val;
 }
+
+void cleanchar()
+{
+	while (getchar() != '\n')
+		continue;
+}
