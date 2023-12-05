@@ -55,6 +55,9 @@
     <Filter Include="源文件\第十三章">
       <UniqueIdentifier>{07cd73bb-ed0b-4171-9a1f-bc9ac130ff45}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\第十四章">
+      <UniqueIdentifier>{0b6e2336-19ed-4fcc-a246-84a84428e8a2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="first2_1.c">
@@ -727,16 +730,22 @@
       <Filter>源文件\第十三章</Filter>
     </ClCompile>
     <ClCompile Include="book_14_1.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第十四章</Filter>
     </ClCompile>
-    <ClCompile Include="manybook_14_2.c">
-      <Filter>源文件</Filter>
+    <ClCompile Include="booksave_14_14.c">
+      <Filter>源文件\第十四章</Filter>
     </ClCompile>
     <ClCompile Include="friend_14_3.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第十四章</Filter>
     </ClCompile>
     <ClCompile Include="friends_14_5.c">
-      <Filter>源文件</Filter>
+      <Filter>源文件\第十四章</Filter>
+    </ClCompile>
+    <ClCompile Include="func_ptr_14_16.c">
+      <Filter>源文件\第十四章</Filter>
+    </ClCompile>
+    <ClCompile Include="manybook_14_2.c">
+      <Filter>源文件\第十四章</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
