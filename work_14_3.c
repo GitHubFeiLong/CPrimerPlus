@@ -17,10 +17,31 @@ struct book
 void sortt(struct book * pb[], int n);
 void sortv(struct book* pb[], int n);
 void sortn(int nums[], int n);
+void printbooks(struct book* pb[], int n);
+
 int main(void)
 {
-	int nums[] = {1, 3, 2, 7, 3, 5, 9};
-	sortn(nums, sizeof(nums) / sizeof(nums[0]));
+	int count = 0;
+	struct book * books[MAXBKS];
+
+	s_gets((*(books + count))->title, MAXTITL);
+
+	printf("请输入书名(空行退出录入书本)：");
+	while (count < MAXBKS
+		&& s_gets((*(books + count))->title, MAXTITL)
+		&& (*(books + count))->title[0] != '\0')
+	{
+		printf("请输入作者：");
+		s_gets((*(books + count))->author, MAXAUTL);
+		printf("请输入价钱：");
+		scanf("%f", (*(books + count))->value);
+		cleanchar();
+		count++;
+		printf("请输入书名(空行退出录入书本)：");
+	}
+	printf("1. 按照录入排序");
+	printbooks(books, count);
+
 	return 0;
 }
 
@@ -65,4 +86,12 @@ void sortt(struct book* pb[], int n)
 void sortv(struct book* pb[], int n)
 {
 
+}
+
+void printbooks(struct book* pb[], int n)
+{
+	int i;
+
+	for (i = 0; i < n; i++)
+		printf("%s by %s:$%.2f\n", pb[i]->title, pb[i]->author, pb[i]->value);
 }
